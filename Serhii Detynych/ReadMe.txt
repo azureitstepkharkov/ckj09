@@ -1,2 +1,2 @@
-Каталог проектов Детинич Сергея  
-e-mail: serhiidetynych@gmail.com
+﻿Каталог проектов Детинич Сергея  
+e-mail: sergeydetinich@gmail.com
