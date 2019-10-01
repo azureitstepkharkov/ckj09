@@ -10,8 +10,8 @@ public class WagonCar extends CargoCar  {
         System.out.println("Инициирована фура с параметрами по умолчанию");
     }
 
-    public WagonCar(boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, boolean fasteningSystem, boolean loaderSystemWorks) {
-        super(driverInCar, carStarted, carrying, bodyVolume);
+    public WagonCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, boolean fasteningSystem, boolean loaderSystemWorks) {
+        super(accumulator, driverInCar, carStarted, carrying, bodyVolume);
         this.fasteningSystem = fasteningSystem;
         this.loaderSystemWorks = loaderSystemWorks;
         System.out.println("Инициирована фура и готов к работе");

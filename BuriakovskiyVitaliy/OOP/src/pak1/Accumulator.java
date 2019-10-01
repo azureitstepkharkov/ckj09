@@ -42,10 +42,10 @@ public abstract class Accumulator {
         }
     }
 
-    static class NiCad extends Accumulator {
+    static class  AKB extends Accumulator {
 
 
-        public NiCad(byte[] voltageSection, byte[] amperageSection) {
+        public AKB(byte[] voltageSection, byte[] amperageSection) {
             super(voltageSection, amperageSection);
         }
 

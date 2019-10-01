@@ -10,8 +10,8 @@ public class CargoCar extends Car {
         System.out.println("Тип автомобиля - грузовой автомобиль с параметрами по умолчанию.");
     }
 
-    public CargoCar(boolean driverInCar, boolean carStarted, int carrying, int bodyVolume) {
-        super(driverInCar, carStarted);
+    public CargoCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int carrying, int bodyVolume) {
+        super(accumulator, driverInCar, carStarted);
         this.carrying = carrying;
         this.bodyVolume = bodyVolume;
         System.out.format("Тип автомобиля - грузовой автомобиль. Грузоподьемность %d, Обьем кузов %d\n", this.carrying, this.bodyVolume);

@@ -10,8 +10,8 @@ public class DumpTruckCar extends CargoCar implements Cargo {
         System.out.println("Инициирован самосвал");
     }
 
-    public DumpTruckCar(boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, int angleRaiseBody, boolean BoardBack) {
-        super(driverInCar, carStarted, carrying, bodyVolume);
+    public DumpTruckCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, int angleRaiseBody, boolean BoardBack) {
+        super(accumulator, driverInCar, carStarted, carrying, bodyVolume);
         this.angleRaiseBody = angleRaiseBody;
         this.BoardBack = BoardBack;
         System.out.println("Инициирован самосвал");
