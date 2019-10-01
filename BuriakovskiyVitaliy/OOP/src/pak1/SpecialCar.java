@@ -10,8 +10,8 @@ public class SpecialCar extends Car {
         System.out.format("Тип автомобиля - спецмащина по умолчанию.\n");
     }
 
-    public SpecialCar(boolean driverInCar, boolean carStarted, int expenseSpecialEquipment, int wearSpecialEquipment) {
-        super(driverInCar, carStarted);
+    public SpecialCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int expenseSpecialEquipment, int wearSpecialEquipment) {
+        super(accumulator, driverInCar, carStarted);
         this.expenseSpecialEquipment = expenseSpecialEquipment;
         this.wearSpecialEquipment = wearSpecialEquipment;
         System.out.format("Тип автомобиля - спецмащина. Расходы навесного оборуд %d. Износ %d\n", this.expenseSpecialEquipment, this.wearSpecialEquipment);

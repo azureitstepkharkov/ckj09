@@ -21,7 +21,5 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/Ivan Petrov/WebAppTest/nbproject/private/
-/Ivan Petrov/WebAppTest/build/
-/Ivan Petrov/MyWindowTester/nbproject/private/
-/Ivan Petrov/MyWindowTester/build/
+/Anatolii Ageev/WebApplication1/nbproject/private/
+/Anatolii Ageev/WebApplication1/build/

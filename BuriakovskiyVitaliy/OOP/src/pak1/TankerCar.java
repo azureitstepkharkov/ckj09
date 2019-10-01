@@ -10,8 +10,8 @@ public class TankerCar extends CargoCar implements Cargo {
         System.out.println("Инициирован автоцистерна с параметрами по умолчанию");
     }
 
-    public TankerCar(boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, boolean hoseConnected, boolean hatchOpen) {
-        super(driverInCar, carStarted, carrying, bodyVolume);
+    public TankerCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int carrying, int bodyVolume, boolean hoseConnected, boolean hatchOpen) {
+        super(accumulator, driverInCar, carStarted, carrying, bodyVolume);
         this.hoseConnected = hoseConnected;
         this.hatchOpen = hatchOpen;
         System.out.println("Инициирован автоцистерна и готов к работе");

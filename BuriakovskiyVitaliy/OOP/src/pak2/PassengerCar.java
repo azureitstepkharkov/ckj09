@@ -1,5 +1,6 @@
 package OOP.pak2;
 
+import OOP.pak1.Accumulator;
 import OOP.pak1.Car;
 
 public class PassengerCar extends Car {
@@ -12,8 +13,8 @@ public class PassengerCar extends Car {
         System.out.format("Тип автомобиля - легково по умолчанию. Подушек безопасности %d. Механизм открывания крыши %b\n", airbagCount, raisedRoofMechanism);
     }
 
-    public PassengerCar(boolean driverInCar, boolean carStarted, int airbagCount, boolean raisedRoofMechanism) {
-        super(driverInCar, carStarted);
+    public PassengerCar(Accumulator accumulator, boolean driverInCar, boolean carStarted, int airbagCount, boolean raisedRoofMechanism) {
+        super(accumulator, driverInCar, carStarted);
         this.airbagCount = airbagCount;
         this.raisedRoofMechanism = raisedRoofMechanism;
         System.out.format("Тип автомобиля - легково. Подушек безопасности %d. Механизм открывания крыши %b\n", airbagCount, raisedRoofMechanism);
