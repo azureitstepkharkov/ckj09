@@ -7,18 +7,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.*;
 
-public class MyConventer extends JFrame implements ActionListener
+public class MyConventer extends JFrame 
 {
-    @Override
-    public void actionPerformed(ActionEvent ae) 
-    {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     private JLabel lblKm;
     private JLabel lblMiles;
     private JTextField txtKm;
+    private JTextField txtResult;
     private JButton btnConvert;
+    
     
     
     public MyConventer()
@@ -34,11 +31,39 @@ public class MyConventer extends JFrame implements ActionListener
         lblKm.setText("Км");
         btnConvert = new JButton("Конвертация");
         this.lblMiles = new JLabel("Результат: ");
-        this.txtKm = new JTextField(20, 50);
+        this.txtKm = new JTextField("               ");
+        this.txtResult = new JTextField("               ");
         this.add(lblKm);
         this.add(txtKm);
         this.add(btnConvert);
         this.add(lblMiles);
+        this.add(txtResult);
+        
+        
+        //вариант 1
+        //Назначение обработчика клика - все окна реализует ActionListener
+        //явно,каждая кнопка передает "свой" клик на общую 
+        //this.btnAction.addActionListener(this);//назначение обработчиков клика
+        //this.btnWork.addActionListener(this);
+        //вариант 2
+        //фактически стандарт чистой Java
+        this.btnConvert.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae)
+            {
+              String str = txtKm.getText().replace(" ", "");
+              float km = Integer.valueOf(str);
+              float result = (float)(km/1.6);
+              txtResult.setText(String.valueOf(result));
+            }
+            
+        });
+        
+        
+        
+        
+            
+    
     }
             
     
