@@ -31,7 +31,7 @@ public abstract class PanelConvertera implements ActionListener {
         this.nameParam2 = new JLabel(nameParam2);
         this.inputValue1 = new JTextField("               ");
         this.inputValue2 = new JTextField("               ");
-        this.outputValue1 = new JTextField("                    ");
+        this.outputValue1 = new JTextField("                     ");
         this.button = new JButton(textButton);
 
        // panel.setBackground(Color.yellow);
