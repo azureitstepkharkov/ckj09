@@ -49,11 +49,41 @@ public class MyWindow extends JFrame implements ActionListener
         this.add(lblMessage);
         this.add(btnAction);
         this.add(lblResult);
-        this.btnAction.addActionListener(this);
-        //
+        
         this.btnWork = new JButton("Кнопка 2");
         this.add(btnWork);
-        this.btnWork.addActionListener(this);
+        
+        //вариант 1
+        //Назначение обработчика клика - все окна реализует ActionListener
+        //явно,каждая кнопка передает "свой" клик на общую 
+        //this.btnAction.addActionListener(this);//назначение обработчиков клика
+        //this.btnWork.addActionListener(this);
+        //вариант 2
+        //фактически стандарт чистой Java
+        this.btnAction.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae)
+            {
+                counter++;
+                String result = String.valueOf(counter);
+                String str = String.format("Результат: %s", result);
+                lblResult.setText(str); 
+                
+            }
+            
+        });
+        this.btnWork.addActionListener( new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae)
+            {
+                counter++;
+                String result = String.valueOf(counter);
+                String str = String.format("Результат: %s", result);
+                lblResult.setText(str); 
+            }
+        }   );
+        //вариант 3 - лямбда выражения - появился в Java 8
+        //фактически стандарт для Android
     }
 
    
