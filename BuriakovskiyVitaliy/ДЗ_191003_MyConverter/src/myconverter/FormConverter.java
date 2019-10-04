@@ -1,19 +1,23 @@
 package myconverter;
 
+import java.awt.Container;
 import java.awt.FlowLayout;
 import java.text.DecimalFormat;
+import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class FormConverter extends JFrame {
+public class FormConverter  {
 
     private JPanel panel;
+    public JFrame jf;
 
     public FormConverter() {
-        this.setSize(350, 300);
-        this.setTitle("Конвертер");
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(new FlowLayout());
+        jf = new JFrame();
+        jf.setTitle("Конвертер");
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //jf.setLayout(new FlowLayout());
+        jf.setLayout(new BoxLayout(jf.getContentPane(), BoxLayout.Y_AXIS));
 
         PanelConvertera kmToMl = new PanelConvertera() {
             @Override
@@ -22,7 +26,7 @@ public class FormConverter extends JFrame {
                 return String.valueOf(data1);
             }
         };
-        this.add(kmToMl.creat("km.", "Convert", "ml.", false));
+        jf.add(kmToMl.creat("km.", "Convert", "ml.", false));
 
         
         PanelConvertera gradToRad = new PanelConvertera() {
@@ -32,17 +36,17 @@ public class FormConverter extends JFrame {
                 return String.valueOf(new DecimalFormat("#0.00").format(data1));
             }
         };
-        this.add(gradToRad.creat("°", "Convert", "r", false));
+        jf.add(gradToRad.creat("°", "Convert", "r", false));
 
         
         PanelConvertera gradToForng = new PanelConvertera() {
             @Override
             public String formula(Float data1, Float data2) {
-                data1 = (float) (data1 - 17);
+                data1 -= 17;
                 return String.valueOf(data1);
             }
         };
-        this.add(gradToForng.creat("°C", "Convert", "F", false));
+        jf.add(gradToForng.creat("°C", "Convert", "F", false));
 
         
         PanelConvertera gradToKelv = new PanelConvertera() {
@@ -52,7 +56,7 @@ public class FormConverter extends JFrame {
                 return String.valueOf(data1);
             }
         };
-        this.add(gradToKelv.creat("°C", "Convert", "K", false));
+        jf.add(gradToKelv.creat("°C", "Convert", "K", false));
 
         
         PanelConvertera forngToKelv = new PanelConvertera() {
@@ -62,7 +66,7 @@ public class FormConverter extends JFrame {
                 return String.valueOf(new DecimalFormat("#0.00").format(data1));
             }
         };
-        this.add(forngToKelv.creat("F", "Convert", "K", false));
+        jf.add(forngToKelv.creat("F", "Convert", "K", false));
 
         
         PanelConvertera usdToUan = new PanelConvertera() {
@@ -72,7 +76,7 @@ public class FormConverter extends JFrame {
                 return String.valueOf(data1);
             }
         };
-        this.add(usdToUan.creat("$", "Convert", "грн.", true));
+        jf.add(usdToUan.creat("$", "Convert", "грн.", true));
 
     }
 }

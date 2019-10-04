@@ -8,7 +8,8 @@ package myconverter;
 public class MyConverter  {
     public static void main(String[] args) {
         FormConverter w = new FormConverter();
-        w.setVisible(true);
+        w.jf.pack();
+        w.jf.setVisible(true);
     }
 }
 
