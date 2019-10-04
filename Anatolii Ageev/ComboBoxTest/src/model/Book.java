@@ -1,10 +1,9 @@
-package Model;
+package model;
 
 import java.util.Objects;
 
-//не хватает только механизма сохранения в xml
-public class Book
-        implements Comparable<Book>
+//не хватает только механихма сохранения в xml
+public class Book implements Comparable<Book>
 {
     //для Collections.sort(books);
     @Override
@@ -13,9 +12,9 @@ public class Book
     }
     //для Arrays.sort(books);
     public int compare(String a, String b) {
-       return b.compareTo(a);
+        return b.compareTo(a);
     }
-    
+
     private Book(){}
     private String title;
 
