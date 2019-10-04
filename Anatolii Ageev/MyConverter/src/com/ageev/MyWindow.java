@@ -59,8 +59,12 @@ public class MyWindow extends JFrame implements ActionListener {
             DecimalFormat f = new DecimalFormat("##.00");
             mlValue.setText(f.format(km).toString());
         } catch (NumberFormatException e1) {
-            showMessageDialog(null, "Please enter a value");
+            massageBox("Enter a digit value");
         }
+    }
+
+    public void massageBox(String str) {
+        showMessageDialog(null, str);
     }
 
 
