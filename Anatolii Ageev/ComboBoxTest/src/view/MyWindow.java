@@ -1,13 +1,19 @@
 package view;
+
+import controller.BookComboboxModel;
+import model.Book;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Vector;
 
-public class MyForm extends JFrame implements ActionListener {
-    Vector<String> books;//feeled from db
-    JComboBox<String> cbox; //
+public class MyWindow extends JFrame  implements ActionListener  {
+    Vector<Book> books;//feeled from db
+    JComboBox<Book> cbox; //
     private JButton btnSelect = new JButton("Select");
     private JButton btnDelete = new JButton("Delete");
 
@@ -15,31 +21,44 @@ public class MyForm extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         JButton btn = (JButton) e.getSource();
         if (btn==btnSelect){
-            String selectBook = (String)cbox.getSelectedItem();
+            Book selectBook = (Book)cbox.getSelectedItem();
             System.out.println("select ->" + selectBook);
-            JOptionPane.showMessageDialog(MyForm.this,selectBook);
+            JOptionPane.showMessageDialog(MyWindow.this,selectBook);
         }
         if (btn==btnDelete){
-            String selectBook = (String)cbox.getSelectedItem();
+            Book selectBook = (Book)cbox.getSelectedItem();
             cbox.removeItem(selectBook);
             System.out.println("select ->" + selectBook);
-            for (String book:books){
+            for (Book book:books){
                 System.out.println(book);
             }
         }
     }
 
-    public MyForm(){
-        this.setSize(300,150);
+    public MyWindow() {
+        this.setSize(300, 150);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("My first combobox");
         this.setLayout(new FlowLayout());
+        cbox = new JComboBox<Book>();
         books = new Vector<>(1000);
-        books.add("Букварь");
-        books.add("Азбука");
-        books.add("Введение в програмирование");
-        books.add("Атлас дорог украины");
-        cbox = new JComboBox<String>(books);
+        Book b1 = new Book("Букварь");
+        Book b2 = new Book("Азбука");
+        Book b3 = new Book("Введение в програмирование");
+        Book b4 = new Book("Атлас дорог украины");
+        Book b5 = new Book("Букварь");
+        books.add(b1);
+        books.add(b2);
+        books.add(b3);
+        books.add(b4);
+        books.add(b5);
+
+        Collections.sort(books);
+        BookComboboxModel model = new BookComboboxModel(books);
+
+        cbox.setModel(model);
+
+        //cbox = new JComboBox<Book>(books);
 
         this.add(cbox);
         this.add(btnDelete);
@@ -49,14 +68,16 @@ public class MyForm extends JFrame implements ActionListener {
         btnDelete.addActionListener(new ActionListener() {
                                         @Override
                                         public void actionPerformed(ActionEvent e) {
-                                            String selectBook = (String)cbox.getSelectedItem();
+                                            Book selectBook = (Book)cbox.getSelectedItem();
                                             cbox.removeItem(selectBook);
                                             System.out.println("select ->" + selectBook);
-                                            for (String book:books){
+                                            for (Book book:books){
                                                 System.out.println(book);
                                             }
                                         }
                                     }
         );
+
+
     }
 }
