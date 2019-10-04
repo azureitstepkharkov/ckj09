@@ -20,14 +20,7 @@ public class MyForm extends JFrame implements ActionListener
         }
         
         if (btn == btnRemove) {
-            String selectedItem = (String) cbox.getSelectedItem();
-            //отображать перестали, но в коллекции все есть
-            cbox.removeItem(selectedItem);
-            System.out.println("remove ->" + selectedItem);
-            //books.remove(selectedItem);
-            for (String book : books) {
-                System.out.println(book);
-            }
+            
         }
     }
     Vector<String> books;//то что заполняем из базы данных
@@ -60,7 +53,23 @@ public class MyForm extends JFrame implements ActionListener
         this.add(btnRemove);
         //добавим кнопки выбора и удаления элементов в список
         btnSelect.addActionListener(this);
-        btnRemove.addActionListener(this);
+        btnRemove.addActionListener( 
+           new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) 
+            {
+               String selectedItem = (String) cbox.getSelectedItem();
+               //отображать перестали, но в коллекции все есть
+               cbox.removeItem(selectedItem);
+               System.out.println("remove ->" + selectedItem);
+               //books.remove(selectedItem);
+               for (String book : books) {
+                     System.out.println(book);
+               }
+            }
+        }
+        );
+
         //
     }
 
