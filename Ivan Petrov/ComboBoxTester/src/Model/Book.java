@@ -2,7 +2,7 @@ package Model;
 
 import java.util.Objects;
 
-//не хватает только механихма сохранения в xml
+//не хватает только механизма сохранения в xml
 public class Book
         implements Comparable<Book>
 {
