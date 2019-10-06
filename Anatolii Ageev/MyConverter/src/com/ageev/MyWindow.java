@@ -8,8 +8,9 @@ import java.awt.geom.Arc2D;
 import java.text.DecimalFormat;
 
 import static javax.swing.JOptionPane.showMessageDialog;
-
+/*
 public class MyWindow extends JFrame implements ActionListener {
+
     private JLabel lablKm;
     private JLabel labMiles;
     private JButton converter1;
@@ -67,5 +68,5 @@ public class MyWindow extends JFrame implements ActionListener {
         showMessageDialog(null, str);
     }
 
-
-}
+   */
+//}
