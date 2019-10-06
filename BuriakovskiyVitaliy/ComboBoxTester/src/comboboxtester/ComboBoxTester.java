@@ -11,7 +11,7 @@ public class ComboBoxTester {
     public static void main(String[] args)
     {
        //MyForm form = new MyForm();
-        MyWindow form = new MyWindow();
+       MyWindow form = new MyWindow();
        form.setVisible(true);
     }
     

@@ -43,17 +43,18 @@ public abstract class PanelConvertera implements ActionListener {
         this.inputValue2 = (JTextField) addJTextField(0);
         this.outputValue1 = (JTextField) addJTextField(10);
 
-        this.button = new JButton(textButton+">>>");
-      //  this.button.setPreferredSize(new Dimension(90, 12));
-        this.button2 = new JButton("<<<"+textButton);
-     //   this.button2.setPreferredSize(new Dimension(90, 12));
+        this.button = new JButton(textButton + ">>>");
+        //  this.button.setPreferredSize(new Dimension(90, 12));
+        this.button2 = new JButton("<<<" + textButton);
+        //   this.button2.setPreferredSize(new Dimension(90, 12));
 
         //  this.nameParam1.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel.add(this.nameParam1);
         panel.add(this.inputValue1);
         if (dopTextField) {
-            this.inputValue1.setColumns(4);
+            this.inputValue1.setColumns(3);
             this.inputValue2.setColumns(3);
+            panel.add(new JLabel("    "));
             panel.add(this.inputValue2);
         }
         panel2.add(this.button);
@@ -63,7 +64,7 @@ public abstract class PanelConvertera implements ActionListener {
         // this.nameParam2.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel.add(this.nameParam2);
 
-        this.button2.addActionListener(this);  
+        this.button2.addActionListener(this);
         this.button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {
@@ -80,9 +81,9 @@ public abstract class PanelConvertera implements ActionListener {
         jLabel.setFont(new Font("Arial", 1, 15));
         return jLabel;
     }
-    
+
     private Container addJTextField(int columnSize) {
-        JTextField jTextField = new JTextField(" ",columnSize);
+        JTextField jTextField = new JTextField(" ", columnSize);
         jTextField.setPreferredSize(new Dimension(30, 55));
         jTextField.setFont(new Font("Arial", 1, 27));
         jTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
