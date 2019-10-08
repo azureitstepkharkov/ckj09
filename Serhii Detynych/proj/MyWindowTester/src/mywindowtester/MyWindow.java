@@ -26,6 +26,9 @@ public class MyWindow extends JFrame implements ActionListener
                 this.lblResult.setText(str);
             }
         }
+        
+        
+        
     }
     int counter;
     

@@ -63,6 +63,9 @@ public class MyWindow extends JFrame implements ActionListener
             @Override
             public void actionPerformed(ActionEvent ae) 
             {
+              //String str1 = txtKm.getText();
+              //int a = Integer.parseInt(str1);
+              
               counter++;
               String result = String.valueOf(counter);
               String str = String.format("Результат %s", result);
