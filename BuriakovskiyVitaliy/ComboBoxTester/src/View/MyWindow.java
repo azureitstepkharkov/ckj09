@@ -51,6 +51,7 @@ public class MyWindow extends JFrame implements ActionListener
         BookComboboxModel model 
                 = new BookComboboxModel(books);
         cbox.setModel(model);
+      //  cbox = new JComboBox<>(books);
         //
         this.add(cbox);
         btnSelect = new JButton("Выбрать");
