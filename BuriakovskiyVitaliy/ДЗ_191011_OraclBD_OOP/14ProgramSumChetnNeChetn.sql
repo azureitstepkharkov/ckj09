@@ -1,0 +1,22 @@
+SET SERVEROUTPUT ON
+DECLARE
+  I          INTEGER :=0;
+  MAX_NAMBER INTEGER :=50;
+  SUM_EVEN   INTEGER := 0;
+  SUM_UNEVEN INTEGER :=0;
+BEGIN
+  WHILE (I<=MAX_NAMBER)
+  LOOP
+    IF(MOD(I,2)=0)THEN
+      BEGIN
+        SUM_EVEN:=SUM_EVEN + I;
+      END;
+    ELSE
+      BEGIN
+        SUM_UNEVEN:=SUM_UNEVEN+I;
+      END;
+    END IF;
+    I:=I+1;
+  END LOOP;
+ DBMS_OUTPUT.PUT_LINE('Сумма четных чисел от 0 до '||TO_CHAR(MAX_NAMBER)||' = '||TO_CHAR(SUM_EVEN)||' нечетных = '||TO_CHAR(SUM_UNEVEN));
+END;
