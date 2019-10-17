@@ -2,14 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0299a84d-f059-43af-abda-38157295b600" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MyWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/out/production/MyConverter/com/ageev/GroupLayoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/out/production/MyConverter/com/ageev/GroupLayoutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/out/production/MyConverter/com/ageev/MyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/out/production/MyConverter/com/ageev/MyConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/src/com/ageev/GroupLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/src/com/ageev/GroupLayoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/src/com/ageev/MyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/src/com/ageev/MyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyConverter/src/com/ageev/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyConverter/src/com/ageev/MyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Procedur_Standarti.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Procedur_VosvratPeremennoyi.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri_PrimerProgrammi.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri_PrimerProgrammi2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Orac_BOOKSl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Oracl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Oracl_INSERT_BOOKSsysoper1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA_PROVERKA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA_insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/Порядок создания таблицы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/10Creat_All_Sequences.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/11Creat_All_Sequences_initialization.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/12Insert_Into_All.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/13Zapross.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/14ProgramSumChetnNeChetn.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/1CreatTableCar.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/2CreatTableCargo_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/3CreatTableDump_Truck_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/4CreatTableDump_Tanker_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/5CreatTableDump_Wagon_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/6CreatTableDump_Passenger_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/7CreatTableDump_Special_Car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/8CreatTableDump_Accumulator.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/9CreatTableDump_Section.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/Controller/BookComboBoxModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/Model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyForm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/comboboxtester/ComboBoxTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/GAS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/GAS_SEQUENCE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/INSERT_GAS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/JUICE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/QUERY_ALL_GAS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/VINE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/VODKA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/INSERT_RIGHT.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/selSeqAuth.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sequenceAuthors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~42.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/src/jdbcoracleconnectiontest/JdbcOracleConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/CREATE SEQUENCE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BADROOM.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BATHROOM.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_FURNITURE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_HOUSEFURNITURE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_KIDSROOM.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_MYEXCEPTION.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_OUTSIDEFURNITURE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_SPECIALFURNITURE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Create_All_Sequences.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Initialization_All_Sequences.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Insert_in_all_tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/hometask while+ifsql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/para11.10.2019.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/para11.10.2019_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Инициализация генерирующей последовательности.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Проверочный запрос инициализации ген.пос.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/пример работы с while + if.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/развернутый INSERT.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/ChetNechet.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper11.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~1113.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~1123.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~115.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~231.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/дом.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ComboBoxTester/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ComboBoxTester/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ivan Petrov/MyWindowTester/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ivan Petrov/MyWindowTester/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/proj/MyWindowTester/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/proj/MyWindowTester/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~4.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/MyForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="59" column="10" selection-start-line="41" selection-start-column="8" selection-end-line="59" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -47,11 +129,85 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/DbHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/EmploeeWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/MyWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="310">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Emploee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-493">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/BookComboboxModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
@@ -70,11 +226,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comboboxtester/MyFormTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +266,13 @@
         <option value="$PROJECT_DIR$/src/controller/BookComboboxModel.java" />
         <option value="$PROJECT_DIR$/src/model/Book.java" />
         <option value="$PROJECT_DIR$/src/view/MyWindow.java" />
+        <option value="$PROJECT_DIR$/src/model/Emploee.java" />
+        <option value="$PROJECT_DIR$/src/view/EmploeeWindow.java" />
+        <option value="$PROJECT_DIR$/src/model/DbHelper.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
     <option name="width" value="1939" />
@@ -127,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,13 +326,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570261750333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571331659724" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -228,17 +387,18 @@
       <workItem from="1570207395452" duration="6102000" />
       <workItem from="1570477440010" duration="649000" />
       <workItem from="1570551885703" duration="1855000" />
+      <workItem from="1571330369178" duration="1908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8606000" />
+    <option name="totallyTimeSpent" value="10514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1733" height="1042" extended-state="7" />
+    <frame x="-7" y="-7" width="1733" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2555224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16298507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -263,7 +423,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24955224" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
+      <window_info active="true" anchor="right" id="Codota" order="5" visible="true" weight="0.32955223" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -280,16 +440,6 @@
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="docComment;class#Comparable#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MyForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="59" column="10" selection-start-line="41" selection-start-column="8" selection-end-line="59" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -502,26 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MyWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/DefaultComboBoxModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -533,10 +663,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Emploee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comboboxtester/MyFormTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/BookComboboxModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
@@ -545,12 +742,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comboboxtester/MyFormTester.java">
+    <entry file="file://$PROJECT_DIR$/src/view/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="310">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MyForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/EmploeeWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/DbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
