@@ -1,4 +1,4 @@
-package jdbcoracleconnectiontest;
+package jdbcoracleconnectionhometest_2;
 
 import java.sql.DriverManager;//управление версиями драйевров
 
@@ -16,11 +16,10 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class JdbcOracleConnectionTest {
+public class JdbcOracleConnectionHomeTest_2 {
 
+    
     public static void main(String[] args) {
-        // Шаг 1 Подключить драйвер + 
-        // Шаг 2 Зарегистрировать нужный класс драйвера
         System.out.println("-------- Oracle JDBC Connection Testing ------");
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -44,23 +43,9 @@ public class JdbcOracleConnectionTest {
             System.out.printf("подробнее об ошибке %s", ex.toString());
             return;
         }
-        //настройка соединения для каждой СУБД своя
-         String sqlText
-                              = "SELECT "
-                              + "EMP.EMPLOYEE_ID "
-                              + ",EMP.HIRE_DATE "
-                              + ",EMP.FIRST_NAME "
-                              + ",EMP.LAST_NAME "
-                              + ",EMP.EMAIL "
-                              + ",EMP.PHONE_NUMBER "
-                              + ",EMP.SALARY "
-                              + ",J.JOB_TITLE "
-                              + ",DEP.DEPARTMENT_NAME "
-                              + ",M.FIRST_NAME AS MANAGER_FNAME "
-                              + "FROM HR.EMPLOYEES EMP "
-                              + "LEFT JOIN HR.JOBS J ON J.JOB_ID = EMP.JOB_ID "
-                              + "LEFT JOIN HR.DEPARTMENTS DEP ON DEP.DEPARTMENT_ID=EMP.DEPARTMENT_ID "
-                              + "LEFT JOIN HR.EMPLOYEES M ON M.EMPLOYEE_ID = EMP.MANAGER_ID ";
+         //настройка соединения для каждой СУБД своя
+         String sqlText = "SELECT * FROM HR.FURNITURE";
+                              
 						  
                             //String sqlText = "SELECT * FROM HR.EMPLOYEES"
         System.out.println("You made it, take control your database now!");
@@ -71,21 +56,15 @@ public class JdbcOracleConnectionTest {
         st = connection.createStatement();//настроился на нужную БД
         ResultSet rs = st.executeQuery(sqlText);
             while (rs.next()) {
-                int id = rs.getInt("EMPLOYEE_ID");
-                Date d = rs.getDate("HIRE_DATE");
-                String fname = rs.getString("FIRST_NAME");
-                String lname = rs.getString("LAST_NAME");
-                float sal = rs.getFloat("SALARY");
-                String depName = rs.getString("DEPARTMENT_NAME");
-                String manageName = rs.getString("MANAGER_FNAME");
-                String jobName = rs.getString("JOB_TITLE");
+                int id = rs.getInt("ID");
+                int chairQuantity = rs.getInt("CHAIR");
+                String material = rs.getString("MATERIAL");
                 
-                System.out.println("id = "+id+" hire_date = "+d+" name = "+fname+" salary = "+sal);
+                System.out.println("ID = " + id + "; Material = " + material + "; Chair quantity = " + chairQuantity);
                 
             }
         } catch (SQLException ex){
                 System.out.println("подробнее об ошибке %s"+ ex.toString());
         }
-    }
-    
+    } 
 }

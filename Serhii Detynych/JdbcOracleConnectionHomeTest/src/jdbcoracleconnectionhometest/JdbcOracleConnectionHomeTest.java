@@ -1,4 +1,4 @@
-package jdbcoracleconnectiontest;
+package jdbcoracleconnectionhometest;
 
 import java.sql.DriverManager;//управление версиями драйевров
 
@@ -16,19 +16,19 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class JdbcOracleConnectionTest {
+public class JdbcOracleConnectionHomeTest {
 
     public static void main(String[] args) {
         // Шаг 1 Подключить драйвер + 
-        // Шаг 2 Зарегистрировать нужный класс драйвера
-        System.out.println("-------- Oracle JDBC Connection Testing ------");
+        // Шаг 2 Зарегистрировать нужный класс драйвера +
+         System.out.println("-------- Oracle JDBC Connection Testing ------");
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
         } catch (ClassNotFoundException ex) {
            System.out.println("класс Oracle JDBC не найден в файле ojdbc6.jar");
         }
         System.out.println("Oracle JDBC Driver Registered!");
-        // Шаг 3 Настроить соединение
+        // Шаг 3 Настроить соединение +
         Connection connection = null;
         try {
             //ORA-12705: Cannot access NLS data files or invalid enviro
@@ -44,23 +44,8 @@ public class JdbcOracleConnectionTest {
             System.out.printf("подробнее об ошибке %s", ex.toString());
             return;
         }
-        //настройка соединения для каждой СУБД своя
-         String sqlText
-                              = "SELECT "
-                              + "EMP.EMPLOYEE_ID "
-                              + ",EMP.HIRE_DATE "
-                              + ",EMP.FIRST_NAME "
-                              + ",EMP.LAST_NAME "
-                              + ",EMP.EMAIL "
-                              + ",EMP.PHONE_NUMBER "
-                              + ",EMP.SALARY "
-                              + ",J.JOB_TITLE "
-                              + ",DEP.DEPARTMENT_NAME "
-                              + ",M.FIRST_NAME AS MANAGER_FNAME "
-                              + "FROM HR.EMPLOYEES EMP "
-                              + "LEFT JOIN HR.JOBS J ON J.JOB_ID = EMP.JOB_ID "
-                              + "LEFT JOIN HR.DEPARTMENTS DEP ON DEP.DEPARTMENT_ID=EMP.DEPARTMENT_ID "
-                              + "LEFT JOIN HR.EMPLOYEES M ON M.EMPLOYEE_ID = EMP.MANAGER_ID ";
+         //настройка соединения для каждой СУБД своя
+         String sqlText = "SELECT * FROM HR.DEPARTMENTS";
 						  
                             //String sqlText = "SELECT * FROM HR.EMPLOYEES"
         System.out.println("You made it, take control your database now!");
@@ -71,21 +56,17 @@ public class JdbcOracleConnectionTest {
         st = connection.createStatement();//настроился на нужную БД
         ResultSet rs = st.executeQuery(sqlText);
             while (rs.next()) {
-                int id = rs.getInt("EMPLOYEE_ID");
-                Date d = rs.getDate("HIRE_DATE");
-                String fname = rs.getString("FIRST_NAME");
-                String lname = rs.getString("LAST_NAME");
-                float sal = rs.getFloat("SALARY");
+                int id = rs.getInt("DEPARTMENT_ID");
                 String depName = rs.getString("DEPARTMENT_NAME");
-                String manageName = rs.getString("MANAGER_FNAME");
-                String jobName = rs.getString("JOB_TITLE");
+                int managerId = rs.getInt("MANAGER_ID"); 
+                int locationId = rs.getInt("LOCATION_ID");
                 
-                System.out.println("id = "+id+" hire_date = "+d+" name = "+fname+" salary = "+sal);
+                System.out.println("ID = " + id + "; department name = " + depName + "; maneger ID = " + managerId +"; location ID = " + locationId + ";");
                 
             }
         } catch (SQLException ex){
                 System.out.println("подробнее об ошибке %s"+ ex.toString());
         }
     }
-    
 }
+
