@@ -86,7 +86,7 @@ public class JdbcOracleConnection {
                 String depName = rs.getString("DEPARTMENT_NAME");
                 String managerName = rs.getString("MANAGER_FNAME");
                 String jobName = rs.getString("JOB_TITLE");
-                        
+                System.out.println("id = "+id+" hire_date = "+d+" name = "+fname+" salary = "+sal);
             }
             
         } 
