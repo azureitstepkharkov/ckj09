@@ -2,96 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0299a84d-f059-43af-abda-38157295b600" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Procedur_Standarti.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Procedur_VosvratPeremennoyi.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri_PrimerProgrammi.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_1910011_SQL_Proceduri_PrimerProgrammi2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Orac_BOOKSl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Oracl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191008_SQL_Oracl_INSERT_BOOKSsysoper1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA_PROVERKA.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/КР_191010_SQL_Oracl_SWQUENSE_AUTHOR_INIZIALIZACIA_insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/SQL_Oracl/Порядок создания таблицы.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/10Creat_All_Sequences.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/11Creat_All_Sequences_initialization.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/12Insert_Into_All.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/13Zapross.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/14ProgramSumChetnNeChetn.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/1CreatTableCar.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/2CreatTableCargo_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/3CreatTableDump_Truck_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/4CreatTableDump_Tanker_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/5CreatTableDump_Wagon_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/6CreatTableDump_Passenger_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/7CreatTableDump_Special_Car.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/8CreatTableDump_Accumulator.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191011_OraclBD_OOP/9CreatTableDump_Section.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/built-jar.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/Controller/BookComboBoxModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/Model/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyForm$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/View/MyWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/build/classes/comboboxtester/ComboBoxTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/ComboBoxTester/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/GAS.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/GAS_SEQUENCE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/INSERT_GAS.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/JUICE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/QUERY_ALL_GAS.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/VINE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/HOME_SQL/VODKA.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/INSERT_RIGHT.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/selSeqAuth.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sequenceAuthors.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~42.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~6.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/SQL1/sysoper~7.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcOracleConnectionTest/src/jdbcoracleconnectiontest/JdbcOracleConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/CREATE SEQUENCE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BADROOM.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BATHROOM.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_FURNITURE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_HOUSEFURNITURE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_KIDSROOM.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_MYEXCEPTION.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_OUTSIDEFURNITURE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_SPECIALFURNITURE.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Create_All_Sequences.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Initialization_All_Sequences.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Insert_in_all_tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/hometask while+ifsql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/para11.10.2019.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/para11.10.2019_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Инициализация генерирующей последовательности.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Проверочный запрос инициализации ген.пос.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/пример работы с while + if.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/развернутый INSERT.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/ChetNechet.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper11.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~1113.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~1123.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~115.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~231.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/дом.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Egor Kravchenko/JdbcOracleConnection/src/jdbcoracleconnection/JdbcOracleConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/Controller/BookComboboxModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/Model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/Model/DbHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/Model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/View/EmployeeWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/View/MyForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/View/MyWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/View/MyWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/build/classes/jcomboboxtester/JComboboxTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/Controller/BookComboboxModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/Model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/Model/DbHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/Model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/View/EmployeeWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/View/MyForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/View/MyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/jcomboboxtester/JComboboxTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/build/classes/jdbcoracleconnectionhometest/JdbcOracleConnectionHomeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest/src/jdbcoracleconnectionhometest/JdbcOracleConnectionHomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/build/classes/jdbcoracleconnectionhometest_2/JdbcOracleConnectionHomeTest_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionHomeTest_2/src/jdbcoracleconnectionhometest_2/JdbcOracleConnectionHomeTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Serhii Detynych/JdbcOracleConnectionTest/src/jdbcoracleconnectiontest/JdbcOracleConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ComboBoxTester/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ComboBoxTester/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BuriakovskiyVitaliy/ДЗ_191003_MyConverter/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ivan Petrov/MyWindowTester/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ivan Petrov/MyWindowTester/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/proj/MyWindowTester/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/proj/MyWindowTester/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Zaharchuk Aleksandr/BD/sysoper~4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comboboxtester/MyFormTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comboboxtester/MyFormTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DbHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/EmploeeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmploeeWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Egor Kravchenko/Diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Egor Kravchenko/Diagrams/Diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Egor Kravchenko/Home/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Egor Kravchenko/Diagrams/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Egor Kravchenko/Home/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Egor Kravchenko/Diagrams/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Egor Kravchenko/Home/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Egor Kravchenko/Diagrams/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BADROOM.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BADROOM.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BATHROOM.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_BATHROOM.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_FURNITURE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_FURNITURE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_HOUSEFURNITURE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_HOUSEFURNITURE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_KIDSROOM.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_KIDSROOM.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_MYEXCEPTION.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_MYEXCEPTION.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_OUTSIDEFURNITURE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_OUTSIDEFURNITURE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_SPECIALFURNITURE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/CreateTable_SPECIALFURNITURE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Create_All_Sequences.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Create_All_Sequences.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Initialization_All_Sequences.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Initialization_All_Sequences.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Insert_in_all_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serhii Detynych/SQL/Hometask/Insert_in_all_tables.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/DbHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#379#388#0" expanded="true" />
@@ -145,10 +143,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/EmploeeWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="442">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/EmployeeComboboxModel1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Emploee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
+            <state relative-caret-position="-157">
               <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -215,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/BookComboboxModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
@@ -229,8 +241,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comboboxtester/MyFormTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,13 +274,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/view/MyForm.java" />
-        <option value="$PROJECT_DIR$/src/comboboxtester/MyFormTester.java" />
         <option value="$PROJECT_DIR$/src/controller/BookComboboxModel.java" />
         <option value="$PROJECT_DIR$/src/model/Book.java" />
         <option value="$PROJECT_DIR$/src/view/MyWindow.java" />
         <option value="$PROJECT_DIR$/src/model/Emploee.java" />
-        <option value="$PROJECT_DIR$/src/view/EmploeeWindow.java" />
         <option value="$PROJECT_DIR$/src/model/DbHelper.java" />
+        <option value="$PROJECT_DIR$/src/view/EmploeeWindow.java" />
+        <option value="$PROJECT_DIR$/src/comboboxtester/MyFormTester.java" />
+        <option value="$PROJECT_DIR$/src/controller/EmployeeComboboxModel1.java" />
       </list>
     </option>
   </component>
@@ -333,7 +346,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571331659724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571333503529" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -387,18 +400,18 @@
       <workItem from="1570207395452" duration="6102000" />
       <workItem from="1570477440010" duration="649000" />
       <workItem from="1570551885703" duration="1855000" />
-      <workItem from="1571330369178" duration="1908000" />
+      <workItem from="1571330369178" duration="3131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10514000" />
+    <option name="totallyTimeSpent" value="11737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1733" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16298507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16298507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -423,12 +436,44 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24955224" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info active="true" anchor="right" id="Codota" order="5" visible="true" weight="0.32955223" />
+      <window_info anchor="right" id="Codota" order="5" weight="0.32955223" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16298507" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956093" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24955224" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" weight="0.32955223" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -676,9 +721,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MyWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MyForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ivan Petrov/JdbcConnectionTest/JComboboxTester/src/View/EmployeeWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Emploee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
+        <state relative-caret-position="-157">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -722,50 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comboboxtester/MyFormTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/BookComboboxModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MyWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MyForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/EmploeeWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,11 +804,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#379#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/EmploeeWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/BookComboboxModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/EmployeeComboboxModel1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
         </state>
       </provider>

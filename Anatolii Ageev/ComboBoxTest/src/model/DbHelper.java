@@ -10,7 +10,6 @@ public class DbHelper {
         Vector<Emploee> VE = new Vector<Emploee>();
         VE.add(emp1);
         VE.add(emp2);
-        co
         return VE;
 
     }
