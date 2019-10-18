@@ -1,0 +1,9 @@
+SELECT 
+    PR.name
+    ,PR.price
+    ,CAT.name
+    
+FROM 
+    product PR
+
+LEFT JOIN category CAT ON PR.category_id = CAT.category_id
