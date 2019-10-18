@@ -3,11 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Detynych2/proj/ComboBoxTester/src/Model/Book.java</file>
-            <file>file:/D:/Detynych2/proj/ComboBoxTester/src/comboboxtester/ComboBoxTester.java</file>
-            <file>file:/D:/Detynych2/proj/ComboBoxTester/src/View/MyWindow.java</file>
-            <file>file:/D:/Detynych2/proj/ComboBoxTester/src/View/MyForm.java</file>
-            <file>file:/D:/Detynych2/proj/ComboBoxTester/src/Controller/BookComboboxModel.java</file>
+            <file>file:/D:/Detynych/ckj09/Serhii%20Detynych/ComboBoxTester/src/Model/DBHelper.java</file>
+            <file>file:/D:/Detynych/ckj09/Serhii%20Detynych/ComboBoxTester/src/View/EmployeeWindow.java</file>
+            <file>file:/D:/Detynych/ckj09/Serhii%20Detynych/ComboBoxTester/src/View/DepartmentWindows.java</file>
+            <file>file:/D:/Detynych/ckj09/Serhii%20Detynych/ComboBoxTester/src/Model/Employee.java</file>
+            <file>file:/D:/Detynych/ckj09/Serhii%20Detynych/ComboBoxTester/src/Model/Department.java</file>
         </group>
     </open-files>
 </project-private>
