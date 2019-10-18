@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 
 public class DepartmentsWindows extends JFrame
 {
-    Vector<Departments> empls;
+    Vector<Departments> dptms;
     JComboBox<Departments> cbox;
     public DepartmentsWindows()
     {
@@ -27,10 +27,9 @@ public class DepartmentsWindows extends JFrame
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
         //
         DbHelper db = new DbHelper();
-        Vector<Departments> empls = db.getDepartments();
-        cbox = new JComboBox<Departments>(empls);//этот конструктор, если используем 
-         DepartmentsComboBoxModel model 
-                = new DepartmentsComboBoxModel(empls);
+        Vector<Departments> dptms = db.getDepartments();
+        cbox = new JComboBox<Departments>(dptms);//этот конструктор, если используем 
+         DepartmentsComboBoxModel model = new DepartmentsComboBoxModel(dptms);
         cbox.setModel(model);
         //
         this.add(cbox);

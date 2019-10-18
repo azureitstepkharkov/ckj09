@@ -61,7 +61,7 @@ public class Departments {
     public String toString() {
         return "Departments{" + "idDepartment=" + idDepartment + ", dname=" + dname + '}';
     }
-    
+
     private int idDepartment;
     private String dname;
 }

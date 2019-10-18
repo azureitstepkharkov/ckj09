@@ -99,7 +99,7 @@ public class DbHelper {
     }
     
     
-        public Vector<Departments> getDepartments() {
+    public Vector<Departments> getDepartments() {
         Vector<Departments> v = new Vector<Departments>();
         //
         //Шаг 1 Подключить драйвер +
