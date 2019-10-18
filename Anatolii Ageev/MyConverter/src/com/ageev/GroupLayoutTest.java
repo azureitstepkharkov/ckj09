@@ -19,7 +19,7 @@ public class GroupLayoutTest extends JFrame implements ActionListener {
     private JTextField mlValue = new JTextField();
 
 
-    public GroupLayoutTest() {
+    public GroupLayoutTest(JLabel lablKm, JLabel labMiles,JButton converter1, JTextField kmValue,JTextField mlValue ) {
 
          kmValue.setEditable(true);
 
@@ -28,7 +28,21 @@ public class GroupLayoutTest extends JFrame implements ActionListener {
         layout.setAutoCreateGaps(true);
         layout.setAutoCreateContainerGaps(true);
 
-        this.converter1.addActionListener(this);
+        this.converter1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+
+                    String str = kmValue.getText();
+                    Double km = Double.parseDouble(str);
+                    km *= 0.621371f;
+                    DecimalFormat f = new DecimalFormat("##.00");
+                    mlValue.setText(f.format(km).toString());
+                } catch (NumberFormatException e1) {
+                    massageBox("Enter a digit value");
+                }
+            }
+        });
         layout.setHorizontalGroup(
                 layout.createSequentialGroup()
                         .addComponent(lablKm)
@@ -48,7 +62,7 @@ public class GroupLayoutTest extends JFrame implements ActionListener {
                         )
         );
 
-        setTitle("Find");
+        setTitle("Converter");
         pack();
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
