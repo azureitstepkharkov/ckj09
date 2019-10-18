@@ -1,0 +1,9 @@
+SELECT 
+p.name ItemName
+,p.price
+,c.name CtegoryName
+FROM
+product p
+LEFT JOIN
+category c
+ON p.category_id = c.category_id
