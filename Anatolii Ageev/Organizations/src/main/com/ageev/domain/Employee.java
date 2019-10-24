@@ -1,10 +1,12 @@
 package main.com.ageev.domain;
 
+import java.util.Date;
 import java.util.Objects;
 
 public class Employee extends LongID{
     private String firstName;
     private String lastName;
+    private Date startDate;
     private Long organizationID;
     private Long departmentID;
 
@@ -19,6 +21,23 @@ public class Employee extends LongID{
         super(o);
         this.firstName = firstName;
         this.lastName = lastName;
+        this.organizationID = organizationID;
+        this.departmentID = departmentID;
+    }
+
+    public Employee(String firstName, String lastName, Date startDate, Long organizationID, Long departmentID) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.startDate = startDate;
+        this.organizationID = organizationID;
+        this.departmentID = departmentID;
+    }
+
+    public Employee(Long o, String firstName, String lastName, Date startDate, Long organizationID, Long departmentID) {
+        super(o);
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.startDate = startDate;
         this.organizationID = organizationID;
         this.departmentID = departmentID;
     }
