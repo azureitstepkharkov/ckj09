@@ -1,0 +1,21 @@
+create or replace FUNCTION  HR.ADD_AUTHORS
+(
+  A_NAME IN varchar2
+, A_PHONE IN NCHAR
+, A_YEAR IN integer
+) RETURN NUMBER is
+ id_val integer;--локальная перемененная
+BEGIN
+ INSERT INTO HR.AUTHORS (FULL_NAME,ID,B_YEAR,PHONE)
+ VALUES(A_NAME,HR.EMPLOYEES_SEQ.NEXTval,A_YEAR,A_PHONE)
+ returning id into id_val;
+  RETURN id_val;
+END;
+
+set SERVEROUTPUT ON
+declare
+  res integer;
+begin
+  res := HR.ADD_AUTHORS('petr Ivanov','+380957293321',1975);
+  DBMS_OUTPUT.PUT_line('return = '||TO_CHAR(res));
+end;
