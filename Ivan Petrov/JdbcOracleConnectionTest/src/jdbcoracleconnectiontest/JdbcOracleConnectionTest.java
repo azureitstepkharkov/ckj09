@@ -79,12 +79,84 @@ public class JdbcOracleConnectionTest {
                 String managerName = rs.getString("MANAGER_FNAME");;
                 String jobName = rs.getString("JOB_TITLE");
                 //
-                System.out.println("id = "+id+" hire_date = "+d+" name = "+fname+" salary = "+sal);
+                System.out.println("id = " + id + " hire_date = " + d + " name = " + fname + " salary = " + sal);
             }
         } catch (SQLException ex) {
             System.out.printf("подробнее об ошибке %s", ex.toString());
         }
+        //callFunctForTest(connection);
+        callProcForTest(connection);
+    }//main
 
+    private static void callFunctForTest(Connection connection) {
+        //callProcForTest(connection);
+        System.out.println("call HR.FUNCT_FOR_TEST");
+        //Вызов ХП
+        //КОМАНДЫ НА ODBC диалекте
+        String sql = "{? = call HR.FUNCT_FOR_TEST (?,?,?)}";
+        //здесь аналог
+        /*
+        set SERVEROUTPUT ON
+        declare
+        res integer;
+        begin
+        res := HR.ADD_AUTHORS('petr Ivanov','+380957293321',1975);
+        DBMS_OUTPUT.PUT_line('return = '||TO_CHAR(res));
+        end;
+        */
+        CallableStatement stmt;
+        try {
+            stmt = connection.prepareCall(sql);
+            //результат - парамерт 1 = тип String
+            //2-й параметр команды odbc-, это 1-й параметр функции integer
+//3-й параметр - это integer
+//4-й = это String
+stmt.registerOutParameter(1,
+        java.sql.Types.VARCHAR);
+stmt.setInt(2, 3);
+int value = 7;
+stmt.setInt(3, value);
+stmt.registerOutParameter(4,
+        java.sql.Types.VARCHAR);
+//Вызов функции внутри базы данных
+stmt.execute();
+String resultValue = stmt.getString(1);
+String outParamValue = stmt.getString(4);
+System.out.println("result value is "
+        + resultValue + " output param value is " + outParamValue);
+stmt.close();
+connection.close();
+//
+        } catch (SQLException ex) {
+            System.out.printf("подробнее об ошибке %s", ex.toString());
+        }
+    }
+
+    private static void callProcForTest(Connection connection) {
+        System.out.println("call HR.PROC_FOR_TEST");
+        //Вызов ХП
+        //КОМАНДЫ НА ODBC диалекте
+        String sql = "{call HR.PROC_FOR_TEST (?,?,?)}";
+        //здесь аналог
+  
+        CallableStatement stmt;
+        try {
+            stmt = connection.prepareCall(sql);
+            stmt.setInt(1, 3);
+            int value = 7;
+            stmt.setInt(2, value);
+            stmt.registerOutParameter(3,
+                    java.sql.Types.VARCHAR);
+//Вызов процедуры внутри базы данных
+            stmt.execute();
+            String outParamValue = stmt.getString(3);
+            System.out.println(" output param value is " + outParamValue);
+            stmt.close();
+            connection.close();
+//
+        } catch (SQLException ex) {
+            System.out.printf("подробнее об ошибке %s", ex.toString());
+        }
     }
 
 }
