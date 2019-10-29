@@ -1,0 +1,25 @@
+--test.db
+/*
+select
+d.DepartmentsID as ID_DEP
+,d.Name as DEPS_NAME
+from Departments d
+*/
+/*
+select
+empl.EmployeesId
+,empl.Employees_name
+,dep.Name as DEPS_NAME
+,dep.DepartmentsID as ID_DEP
+from
+Employees empl left join EmployeesToDepartments e2d
+on empl.EmployeesId=e2d.EmployeesId
+left join Departments dep on dep.DepartmentsID = e2d.DepartmentsID
+*/
+select
+ c.name as category_name
+,count(p.product_id) as product_name
+from
+category c left join product p on p.category_id = c.category_id
+group by c.name--c.category_id
+order by c.category_id
