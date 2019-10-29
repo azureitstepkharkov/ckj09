@@ -1,0 +1,11 @@
+select
+ empl.FIRST_NAME as TITLE
+ ,empl.salary as SALARY
+from
+HR.EMPLOYEES empl
+union all
+select
+jb.JOB_TITLE as Title
+,jb.MAX_SALARY as SALARY
+from
+HR.JOBS jb
