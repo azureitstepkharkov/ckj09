@@ -1,0 +1,18 @@
+set SERVEROUTPUT ON
+begin
+-- Function  TO_CHAR() --
+    DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-MM-YY'));
+    DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-MM-YYYY A.D.'));
+    DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-J-MM-YYYY A.D.'));-- что такое  j загуглить
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'D-DAY-DD-MON, YYYY'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DAY DDD MONTH YYYY'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DAY-MONTH-YYYY'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'Q-DD-RM-YYYY '));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-MONTH-WW-YYYY HH24:MI:SS'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-MONTH-W-YYYY HH24:MI:SS'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'DD-MONTH-YEAR HH24:MI:SS'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'HH24:MI:SS'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'HH:MI:SS AM'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'HH12:MI:SS P.M.'));
+   	DBMS_OUTPUT.put_line( TO_CHAR(SYSDATE,  'HH12:MI:SS:J.SSSSS P.M.'));
+end;
