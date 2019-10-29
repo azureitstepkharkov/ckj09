@@ -1,0 +1,6 @@
+SELECT
+jb.JOB_TITLE as Title
+,jb.MAX_SALARY as SALARY
+from
+HR.JOBS jb
+
