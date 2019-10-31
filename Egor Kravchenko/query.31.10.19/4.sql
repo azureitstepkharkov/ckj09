@@ -1,0 +1,6 @@
+--Выведите список сотрудников, чьи телефонные номера заканчиваются на 9
+SELECT HR.EMPLOYEES.FIRST_NAME
+,HR.EMPLOYEES.LAST_NAME
+,HR.EMPLOYEES.PHONE_NUMBER
+FROM HR.EMPLOYEES
+WHERE PHONE_NUMBER LIKE '%9';
