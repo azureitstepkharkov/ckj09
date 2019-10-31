@@ -1,0 +1,15 @@
+--Выведите список сотрудников, чьи телефонные номера заканчиваются на 9
+SELECT 
+EMPLOYEE_ID,
+  FIRST_NAME,
+  LAST_NAME,
+  EMAIL,
+  PHONE_NUMBER,
+  HIRE_DATE,
+  JOB_ID,
+  SALARY,
+  COMMISSION_PCT,
+  MANAGER_ID,
+  DEPARTMENT_ID
+FROM HR.EMPLOYEES EMP
+WHERE PHONE_NUMBER LIKE '%9'
