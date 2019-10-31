@@ -1,0 +1,19 @@
+                  String sqlText
+                              = "SELECT "
+                              + "EMP.EMPLOYEE_ID "
+                              + ",EMP.HIRE_DATE "
+                              + ",EMP.FIRST_NAME "
+                              + ",EMP.LAST_NAME "
+                              + ",EMP.EMAIL "
+                              + ",EMP.PHONE_NUMBER "
+                              + ",EMP.SALARY "
+                              + ",J.JOB_TITLE "
+                              + ",DEP.DEPARTMENT_NAME "
+                              + ",M.FIRST_NAME AS MANAGER_FNAME "
+                              + "FROM HR.EMPLOYEES EMP "
+                              + "LEFT JOIN HR.JOBS J ON J.JOB_ID = EMP.JOB_ID "
+                              + "LEFT JOIN HR.DEPARTMENTS DEP ON DEP.DEPARTMENT_ID=EMP.DEPARTMENT_ID "
+                              + "LEFT JOIN HR.EMPLOYEES M ON M.EMPLOYEE_ID = EMP.MANAGER_ID ";
+							  
+							  
+//String sqlText = "SELECT * FROM HR.EMPLOYEES"

@@ -1,0 +1,13 @@
+create or replace FUNCTION       TASK1_1_SUM_TWO_DIGIT_NUMBERS
+  RETURN NUMBER
+IS
+  I       INTEGER := 10;
+  SUM_TWO INTEGER :=0;
+BEGIN
+  WHILE (I<100)
+  LOOP
+    SUM_TWO:=SUM_TWO+I;
+    I      :=I      +1;
+  END LOOP;
+RETURN SUM_TWO;
+END;

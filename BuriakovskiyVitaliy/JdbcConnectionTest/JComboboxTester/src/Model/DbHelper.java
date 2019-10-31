@@ -71,6 +71,7 @@ public class DbHelper {
             while (rs.next()) {
                 int id = rs.getInt("EMPLOYEE_ID");
                 Date d = rs.getDate("HIRE_DATE");
+                System.out.println(rs.getString("HIRE_DATE"));
                 //
                 String fname = rs.getString("FIRST_NAME");
                 String lname = rs.getString("LAST_NAME");

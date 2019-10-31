@@ -1,0 +1,4 @@
+set SERVEROUTPUT ON
+begin
+DBMS_OUTPUT.put_line( TO_CHAR(TO_NUMBER('10000000')) );
+end;
