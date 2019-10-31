@@ -29,6 +29,7 @@ public class JdbcSQLiteConnectionTest {
                     "jdbc:sqlite:D:\\MyData\\test.db");
             Statement stm = connection.createStatement();
             ResultSet rs = stm.executeQuery("SELECT EMPLOYEESID, EMPLOYEES_NAME, IDCODE FROM EMPLOYEES");
+            //ResultSet rs = stm.executeQuery("select strftime( '%Y-%W-%w %H:%M:%S.0', PURCHASE_DATE ) as PURCHASE_DATE from ORDERS");
          
             int num = 0;
             while (rs.next()) {
