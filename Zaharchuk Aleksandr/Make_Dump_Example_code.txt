@@ -1,0 +1,52 @@
+Шаги:
+1. Создать пользователя с правами для создания дампов (или использовать пользователя system)
+2. Создать на диске каталог с правами владельца (то есть под тем пользователем из под которого устанаваливали Оракл)
+3. Зарегистрировать это созданный каталог внутри Оракла и дать Ораклу права на ее использование
+4. Выполнить Экспорт схемы HR
+5. Выыполнить загрузку схемы HR в новую схему
+
+Команды скрипта для создания пользователя, установки необходимых прав доступа:
+
+CREATE USER HR_COPY IDENTIFIED BY 
+hr
+DEFAULT TABLESPACE USERS TEMPORARY TABLESPACE TEMP;
+GRANT CONNECT, RESOURCE, imp_full_database,EXP_FULL_DATABASE to HR_COPY;
+
+Дополнительные сведения:
+Команда которая разблокирует пользователя и присваивает ему новый пароль.
+Слово Password -  это и есть наш пароль.
+
+ALTER USER hr ACCOUNT UNLOCK IDENTIFIED BY Password;
+
+Пример этой командыв для нашего пароля 123
+
+ALTER USER hr ACCOUNT UNLOCK IDENTIFIED BY 123;
+
+
+Команда для регистрации созданного каталога внутри Оракла
+create directory mydumpdir as 'D:/MyData';
+
+GRANT read, write ON DIRECTORY mydumpdir TO HR_COPY;
+
+Проверка того факта, что Оракл видит директрию
+
+select directory_name, directory_path from dba_directories ;
+
+
+!!Внимание в SQL Command Line нужно на приглашение SQL> поставить $ (знак доллар) чтобы перейти к возможности команд оракла-айпи!!!
+
+Пример команды для экспорта всех схемы HR в дамп
+expdp userid=system/123@//localhost:1521/XE dumpfile=testdump.dmp logfile=testdump.log SCHEMAS=HR directory=mydumpdir
+
+Пример команды для импорта данных из дампа в новую схему
+impdp HR_COPY/hr directory=mydumpdir dumpfile=testdump.dmp logfile=imphrlog.txt  remap_schema=HR:HR_COPY
+
+Пример команды для импорта только некоторых таблиц из полного дампа
+
+impdp HR_COPY/hr directory=mydumpdir dumpfile=testdump.dmp logfile=imphrlog.txt TABLES=(HR.DEPARTMENTS,HR.EMPLOYEES) remap_schema=HR:HR_COPY
+
+Шаблоны скриптов для самостоятельных тестов
+expdp fromUser/fromPword schemas=sourceSchema directory=DUMPDIR dumpfile=dump.dmp logfile=explog.txt
+impdp toUser/toPword directory=DUMPDIR dumpfile=dump.dmp logfile=implog.txt remap_schema=fromUser:toUse
+
+
