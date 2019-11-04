@@ -1,6 +1,8 @@
 package javareflectiontest;
-
-public class MyUser 
+import java.awt.event.ActionEvent;
+import java.beans.PropertyChangeListener;
+import javax.swing.*;
+public class MyUser implements Action
 {
 
     public MyUser(Long id, String email, String password) {
@@ -10,7 +12,6 @@ public class MyUser
         System.out.println("call MyUser(Long id...");
     
     }
-
     public MyUser() 
     {
        System.out.println("call MyUser()");
@@ -54,5 +55,40 @@ public class MyUser
     private Long id;
     private String email;
     private String password;
+
+    @Override
+    public Object getValue(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void putValue(String string, Object o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setEnabled(boolean bln) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean isEnabled() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void addPropertyChangeListener(PropertyChangeListener pl) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void removePropertyChangeListener(PropertyChangeListener pl) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent ae) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
