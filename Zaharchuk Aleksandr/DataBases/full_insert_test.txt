@@ -1,0 +1,12 @@
+set SERVEROUTPUT ON
+declare
+  id_val integer;
+  A_NAME varchar2(100):='petr Ivanov';
+  A_PHONE NCHAR(20):='+380957293321';
+  A_YEAR integer:= 1975;
+begin
+ INSERT INTO HR.AUTHORS (FULL_NAME,ID,B_YEAR,PHONE)
+ VALUES(A_NAME,HR.EMPLOYEES_SEQ.NEXTval,A_YEAR,A_PHONE)
+ returning id into id_val;
+ DBMS_OUTPUT.put_line(id_val);
+ end;
