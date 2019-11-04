@@ -1,0 +1,7 @@
+SELECT 
+MAKE
+, PR.TYPE
+, PRICE
+FROM product
+LEFT JOIN printer PR ON PR.model=product.model
+WHERE COLOR='Y'
