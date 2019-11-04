@@ -1,0 +1,18 @@
+--Выведите список сотрудников с указанием их имени, должности, заработной платы и с указанием отдела, в котором он работает сейчас
+SELECT 
+--EMP.EMPLOYEE_ID,
+  EMP.FIRST_NAME,
+ -- EMP.LAST_NAME,
+ -- EMP.EMAIL,
+ -- EMP.PHONE_NUMBER,
+ -- EMP.HIRE_DATE,
+-- EMP.JOB_ID,
+  EMP.SALARY,
+ -- EMP.COMMISSION_PCT,
+ -- EMP.MANAGER_ID,
+--  EMP.DEPARTMENT_ID,
+  DPT.DEPARTMENT_NAME,
+  JBS.JOB_TITLE
+FROM HR.EMPLOYEES EMP
+LEFT JOIN HR.DEPARTMENTS DPT ON DPT.DEPARTMENT_ID=EMP.DEPARTMENT_ID
+LEFT JOIN HR.JOBS JBS ON JBS.JOB_ID=EMP.JOB_ID

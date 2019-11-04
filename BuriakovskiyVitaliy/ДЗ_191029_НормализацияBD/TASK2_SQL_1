@@ -1,0 +1,20 @@
+SELECT 
+MAKE
+, TYPE
+, PRICE
+FROM product
+LEFT JOIN pc ON PC.model=product.model
+UNION ALL
+SELECT 
+MAKE
+, TYPE
+, PRICE
+FROM product
+LEFT JOIN laptop ON laptop.model=product.model
+UNION ALL
+SELECT 
+MAKE
+, PR.TYPE
+, PRICE
+FROM product
+LEFT JOIN printer PR ON PR.model=product.model

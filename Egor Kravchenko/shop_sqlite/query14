@@ -1,0 +1,6 @@
+select product.maker, max(pc.price), max(laptop.price), max(printer.price)
+from product
+LEFT JOIN pc ON  product.model = pc.model
+LEFT JOIN laptop ON  product.model = laptop.model
+LEFT JOIN printer ON  product.model = printer.model
+group by product.maker;

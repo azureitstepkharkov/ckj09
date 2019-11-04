@@ -1,0 +1,154 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Пн Ноя 4 17:42:31 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "HR_COPY"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "HR_COPY"."SYS_IMPORT_FULL_01":  HR_COPY/******** directory=mydumpdir dumpfile=testdump.dmp logfile=imphrlog.txt remap_schema=HR:HR_COPY 
+Processing object type SCHEMA_EXPORT/USER
+ORA-39083: Object type USER failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+ CREATE USER "HR_COPY" IDENTIFIED BY VALUES 'S:0C4AC8BEE8DB8B9C626160CDE9A829068D64C73A2F001F893F39B8668543;4C6D73C3E8B0F0DA' DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP"
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT CREATE DATABASE LINK TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT CREATE SEQUENCE TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT CREATE VIEW TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT CREATE SYNONYM TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT UNLIMITED TABLESPACE TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT ALTER SESSION TO "HR_COPY"
+ORA-39083: Object type SYSTEM_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+GRANT CREATE SESSION TO "HR_COPY"
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+ORA-39083: Object type ROLE_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+ GRANT "CONNECT" TO "HR_COPY"
+ORA-39083: Object type ROLE_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+ GRANT "RESOURCE" TO "HR_COPY"
+ORA-39083: Object type ROLE_GRANT failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+ GRANT "EXP_FULL_DATABASE" TO "HR_COPY"
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+ORA-39083: Object type DEFAULT_ROLE failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+ ALTER USER "HR_COPY" DEFAULT ROLE "CONNECT", "RESOURCE", "EXP_FULL_DATABASE"
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+ORA-39083: Object type TABLESPACE_QUOTA failed to create with error:
+ORA-31625: Schema SYSTEM is needed to import this object, but is unaccessible
+ORA-01031: insufficient privileges
+Failing sql is:
+DECLARE   TEMP_COUNT NUMBER;   SQLSTR VARCHAR2(200); BEGIN   SQLSTR := 'ALTER USER "HR_COPY" QUOTA UNLIMITED ON "USERS"';  EXECUTE IMMEDIATE SQLSTR;EXCEPTION   WHEN OTHERS THEN    IF SQLCODE = -30041 THEN       SQLSTR := 'SELECT COUNT(*) FROM USER_TABLESPACES               WHERE TABLESPACE_NAME = ''USERS'' AND 
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"HR_COPY"."LOCATIONS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."DEPARTMENTS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."EMPLOYEES_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."AUTHORS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."ACCUMULATOR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."CARGO_CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."DUMP_TRUCK_CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."PASSENGER_CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."SPECIAL_CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."TANKER_CAR_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"HR_COPY"."WAGON_CAR_SEQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+ORA-39151: Table "HR_COPY"."COUNTRIES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."REGIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."LOCATIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."DEPARTMENTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."JOBS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."EMPLOYEES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."JOB_HISTORY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."BOOKS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."AUTHORS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."CARGO_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."DUMP_TRUCK_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."TANKER_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."WAGON_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."PASSENGER_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."SPECIAL_CAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."ACCUMULATOR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "HR_COPY"."SECTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "HR_COPY"."ACCOUNTS"                            0 KB       0 rows
+. . imported "HR_COPY"."ACCOUNTS_TO_CLIENTS"                 0 KB       0 rows
+. . imported "HR_COPY"."BANKS"                               0 KB       0 rows
+. . imported "HR_COPY"."CLIENTS"                             0 KB       0 rows
+. . imported "HR_COPY"."ORDERS"                              0 KB       0 rows
+. . imported "HR_COPY"."ORDERS_POSITIONS"                    0 KB       0 rows
+. . imported "HR_COPY"."PRODUCTS"                            0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+ORA-31684: Object type FUNCTION:"HR_COPY"."ADD_AUTHORS" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."FUNCT_FOR_TEST" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK1_1_SUM_TWO_DIGIT_NUMBERS" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK1_2_COMPOSITION" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK1_3_SUM_EVEN" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_1_GRAD_TO_RAD" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_2_RAD_TO_GRAD" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_3_SM_TO_DM" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_4_DM_TO_SM" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_5_SQUARE_ROOT" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_6_INSERT_AUTOR" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_7_DELETE_AUTOR" already exists
+ORA-31684: Object type FUNCTION:"HR_COPY"."TASK2_8_UPDATE_AUTORS" already exists
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+ORA-31684: Object type PROCEDURE:"HR_COPY"."ADD_JOB_HISTORY" already exists
+ORA-31684: Object type PROCEDURE:"HR_COPY"."PROC_FOR_TEST" already exists
+ORA-31684: Object type PROCEDURE:"HR_COPY"."SECURE_DML" already exists
+ORA-31684: Object type PROCEDURE:"HR_COPY"."TASK2_6_INSERT_AUTORS" already exists
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+ORA-39082: Object type ALTER_FUNCTION:"HR_COPY"."ADD_AUTHORS" created with compilation warnings
+ORA-39082: Object type ALTER_FUNCTION:"HR_COPY"."TASK2_6_INSERT_AUTOR" created with compilation warnings
+ORA-39082: Object type ALTER_FUNCTION:"HR_COPY"."TASK2_7_DELETE_AUTOR" created with compilation warnings
+ORA-39082: Object type ALTER_FUNCTION:"HR_COPY"."TASK2_8_UPDATE_AUTORS" created with compilation warnings
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+ORA-31684: Object type VIEW:"HR_COPY"."EMP_DETAILS_VIEW" already exists
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "HR_COPY"."SYS_IMPORT_FULL_01" completed with 65 error(s) at 17:42:33

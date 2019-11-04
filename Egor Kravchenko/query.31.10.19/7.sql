@@ -1,0 +1,9 @@
+--Выведите список сотрудников с указанием их имени, должности, заработной платы и с указанием отдела, в котором он работает сейчас и имени непосредственного начальника
+SELECT 
+HR.EMPLOYEES.FIRST_NAME
+,HR.EMPLOYEES.MANAGER_ID AS NACHALNIK
+,HR.JOBS.JOB_TITLE
+,HR.DEPARTMENTS.DEPARTMENT_NAME
+FROM HR.EMPLOYEES
+LEFT JOIN HR.JOBS ON HR.EMPLOYEES.JOB_ID = HR.JOBS.JOB_ID
+LEFT JOIN HR.DEPARTMENTS ON HR.EMPLOYEES.DEPARTMENT_ID = HR.DEPARTMENTS.DEPARTMENT_ID;

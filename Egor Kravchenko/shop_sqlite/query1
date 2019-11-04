@@ -1,0 +1,9 @@
+SELECT product.maker
+, product.type
+,pc.price
+,laptop.price
+,printer.price
+FROM product
+LEFT JOIN pc ON  product.model = pc.model
+LEFT JOIN laptop ON  product.model = laptop.model
+LEFT JOIN printer ON  product.model = printer.model;

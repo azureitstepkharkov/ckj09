@@ -1,0 +1,2 @@
+select avg(pc.speed)  from product
+LEFT JOIN pc ON  product.model = pc.model;

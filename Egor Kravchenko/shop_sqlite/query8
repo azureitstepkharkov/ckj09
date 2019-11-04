@@ -1,0 +1,4 @@
+select (avg(pc.price)+avg(laptop.price)+avg(printer.price))/3 as seredne from product
+LEFT JOIN pc ON  product.model = pc.model
+LEFT JOIN laptop ON  product.model = laptop.model
+LEFT JOIN printer ON  product.model = printer.model;

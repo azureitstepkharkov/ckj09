@@ -1,0 +1,2 @@
+select avg(printer.price) from printer
+WHERE printer.color = "y";
