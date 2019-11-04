@@ -1,0 +1,2 @@
+SELECT printer.model , printer.color from printer
+WHERE printer.color = "y";

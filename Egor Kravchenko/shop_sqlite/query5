@@ -1,0 +1,1 @@
+SELECT MAX(printer.price) FROM printer;

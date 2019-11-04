@@ -1,0 +1,1 @@
+SELECT printer.model FROM printer;

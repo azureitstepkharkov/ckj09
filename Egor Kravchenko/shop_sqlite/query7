@@ -1,0 +1,3 @@
+select avg(printer.price) from printer where printer.type = "laser"
+union  select avg(printer.price) from printer where printer.type = "matrix"
+union  select avg(printer.price) from printer where printer.type = "jet";
