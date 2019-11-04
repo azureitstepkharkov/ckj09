@@ -36,8 +36,8 @@ public class JdbcOracleConnectionTest {
             java.util.Locale.setDefault(java.util.Locale.ENGLISH);
             //объект класса Connection
             connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@localhost:1521:xe", "system",
-                    "123");
+                    "jdbc:oracle:thin:@localhost:1521:xe", "hr_copy",
+                    "hr");
             java.util.Locale.setDefault(locale);
             //строка соединеня для каждой
             //СУБД своя
