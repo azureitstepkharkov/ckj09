@@ -1,0 +1,56 @@
+-- агрегатные функции sum, count, avg, max, min
+--логика создани€:
+/*
+1. создаем выборку на два-три (до п€ти полей) пол€
+одно из которых числовое, по которому находим сумму, среднее или
+ведем подсчет
+2. добавл€ем сортировку order by 
+в результате которой все слагаемы выстраиваютс€ р€дом
+3. замен€ем order by на group by (сворачиваем одинаковые харакетристик)
+и помещаем числовое поле в агрегатор
+*/
+--пример 1 количество сотрудников в отделе
+/*
+select count(empl.EMPLOYEE_ID)
+, dep.DEPARTMENT_NAME 
+from HR.EMPLOYEES empl left join hr.departments dep on dep.DEPARTMENT_ID
+= empl.DEPARTMENT_ID
+--order by dep.DEPARTMENT_NAME desc -- asc - поумолчанию, desc - наоборот
+group by dep.DEPARTMENT_NAME 
+order by  1
+*/
+--пример 2 средн€€ зп в отделе
+/*
+select
+   avg(empl.SALARY) as AVG_SALARY
+, dep.DEPARTMENT_NAME 
+from HR.EMPLOYEES empl left join hr.departments dep on dep.DEPARTMENT_ID
+= empl.DEPARTMENT_ID
+group by dep.DEPARTMENT_NAME
+order by dep.DEPARTMENT_NAME 
+*/
+--пример 3 минимальна€ зп в отделе
+--пример 4 затраты на отдел по зп фактические
+/*
+select
+   sum(empl.SALARY) as TOTAL_SALARY
+, dep.DEPARTMENT_NAME 
+from HR.EMPLOYEES empl left join hr.departments dep on dep.DEPARTMENT_ID
+= empl.DEPARTMENT_ID
+group by dep.DEPARTMENT_NAME
+order by dep.DEPARTMENT_NAME
+*/
+--пример 5 затраты на отдел по за планируемые
+
+select
+   /*
+   empl.SALARY as TOTAL_SALARY
+   ,jb.JOB_TITLE
+   */
+  sum(jb.MAX_SALARY) as SALARY
+, dep.DEPARTMENT_NAME 
+from HR.EMPLOYEES empl 
+left join hr.departments dep on dep.DEPARTMENT_ID = empl.DEPARTMENT_ID
+left join hr.jobs jb on jb.JOB_ID = empl.JOB_ID
+group by dep.DEPARTMENT_NAME 
+order by dep.DEPARTMENT_NAME 

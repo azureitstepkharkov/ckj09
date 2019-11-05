@@ -1,0 +1,33 @@
+Logi Tue Nov 05 02:01:45 EET 2019 --> call MyUser()
+Logi Tue Nov 05 02:01:45 EET 2019 --> call setId(
+Logi Tue Nov 05 02:01:45 EET 2019 --> call setEmail(
+Logi Tue Nov 05 02:01:45 EET 2019 --> call getEmail()
+Logi Tue Nov 05 02:01:45 EET 2019 --> Пример #1 использования рефлексии на примере класса User 
+
+Logi Tue Nov 05 02:01:45 EET 2019 --> call getEmail()
+Logi Tue Nov 05 02:01:45 EET 2019 --> call setEmail(
+Logi Tue Nov 05 02:01:45 EET 2019 --> Список методов класса:javareflectiontest.MyUser
+Logi Tue Nov 05 02:01:45 EET 2019 --> у класса есть аннотация false
+Logi Tue Nov 05 02:01:45 EET 2019 --> у класса есть родитель class java.lang.Object
+Logi Tue Nov 05 02:01:45 EET 2019 --> методы класса 
+Logi Tue Nov 05 02:01:45 EET 2019 --> toString
+Logi Tue Nov 05 02:01:45 EET 2019 --> getId
+Logi Tue Nov 05 02:01:45 EET 2019 --> getEmail
+Logi Tue Nov 05 02:01:45 EET 2019 --> setEmail
+Logi Tue Nov 05 02:01:45 EET 2019 --> call setEmail(
+Logi Tue Nov 05 02:01:45 EET 2019 --> setId
+Logi Tue Nov 05 02:01:45 EET 2019 --> getPassword
+Logi Tue Nov 05 02:01:45 EET 2019 --> setPassword
+Logi Tue Nov 05 02:01:45 EET 2019 --> call setPassword(
+Logi Tue Nov 05 02:01:45 EET 2019 --> wait
+Logi Tue Nov 05 02:01:45 EET 2019 --> wait
+Logi Tue Nov 05 02:01:45 EET 2019 --> wait
+Logi Tue Nov 05 02:01:45 EET 2019 --> equals
+Logi Tue Nov 05 02:01:45 EET 2019 --> hashCode
+Logi Tue Nov 05 02:01:45 EET 2019 --> getClass
+Logi Tue Nov 05 02:01:45 EET 2019 --> notify
+Logi Tue Nov 05 02:01:45 EET 2019 --> notifyAll
+Logi Tue Nov 05 02:01:45 EET 2019 --> конструкторы: 
+Logi Tue Nov 05 02:01:45 EET 2019 --> javareflectiontest.MyUser параметры 3
+Logi Tue Nov 05 02:01:45 EET 2019 --> javareflectiontest.MyUser параметры 0
+Logi Tue Nov 05 02:01:45 EET 2019 --> intefaces : 

@@ -1,0 +1,10 @@
+select
+ em.PHONE_NUMBER
+,em.FIRST_NAME
+from
+HR.EMPLOYEES em
+--where UPPER( em.FIRST_NAME ) LIKE 'A%'
+--where UPPER( em.FIRST_NAME ) LIKE 'Al%'
+--where  em.FIRST_NAME LIKE '_l%'
+--where  em.FIRST_NAME LIKE '%r'
+--order by em.FIRST_NAME
