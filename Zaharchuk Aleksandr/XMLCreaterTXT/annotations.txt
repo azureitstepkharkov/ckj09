@@ -1,0 +1,7 @@
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
+//@XmlAccessorType(XmlAccessType.PUBLIC_MEMBER)
+//@XmlAccessorType(XmlAccessType.PUBLIC_MEMBER)
+
+@XmlElement
+@XmlAttribute(name = "IDENTITY", required = true)
