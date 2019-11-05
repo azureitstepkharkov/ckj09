@@ -51,7 +51,19 @@ public class XMLCreater {
 
     private static void loadObjectsFomXmlFile() 
     {
-     
+      try {
+
+            File file = new File("C:\\MyData\\file.xml");
+            JAXBContext jaxbContext = JAXBContext.newInstance(Users.class);
+
+            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+            Users users = (Users) jaxbUnmarshaller.unmarshal(file);
+            System.out.println(users.getUsers());
+
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+    }
     
     }
     
