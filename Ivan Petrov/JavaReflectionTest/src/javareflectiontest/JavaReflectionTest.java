@@ -50,6 +50,7 @@ public class JavaReflectionTest {
         //Class clazz = MyUser.class;
         Class clazz;
         try {
+            //аналог new с конструктором по умолчанию
             clazz = Class.forName(className);
             System.out.println("у класса есть аннотация "+clazz.isAnnotation()); 
             Class superClasses =  clazz.getSuperclass();
