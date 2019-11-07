@@ -22,7 +22,8 @@ class JTableTestWindow2 extends JFrame
         setLayout( new BorderLayout() );
         add( new JScrollPane( tblString) ,BorderLayout.CENTER);
         //
-        //tblString.setDefaultRenderer(Student.Grade.class, new MyGradeRenderer());
+        tblString.setDefaultRenderer(Student.Grade.class, 
+                new MyGradeRenderer());
         pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
