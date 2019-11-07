@@ -16,8 +16,8 @@ class JTableTestWindow2 extends JFrame
         students.add(new Student(1,"Иванов",Student.Grade.A));
         students.add(new Student(2,"Петров",Student.Grade.B));
         students.add(new Student(3,"Сидоров",Student.Grade.C));
-        //StudentTableModel model = new StudentTableModel(students);
-        //tblString = new JTable(model);
+        StudentTableModel model = new StudentTableModel(students);
+        tblString = new JTable(model);
         setLayout( new BorderLayout() );
         add( new JScrollPane( tblString) ,BorderLayout.CENTER);
         //
