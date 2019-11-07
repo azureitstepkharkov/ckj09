@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bcbd5a-5ed1-41a7-8713-85bfdf10dc74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Ivan Petrov/DataBases/Модуль Язык PLSql и statements и вызовы StoredProc.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ivan Petrov/DataBases/ОСНОВЫ РАБОТЫ TO_CHAR и др. функций для строк.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +39,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ageev/JavaReflectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="829">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,9 +90,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="504" />
-    <option name="y" value="17" />
+    <option name="y" value="15" />
     <option name="width" value="2289" />
-    <option name="height" value="1637" />
+    <option name="height" value="1638" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,33 +102,14 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572903439087" />
+    <property name="last_opened_file_path" value="D:/Clouds/OneDrive/00_ШАГ/Программирование/JS/DZ/jquery-picture-memory-game/dist" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -177,16 +157,17 @@
       <updated>1572889311818</updated>
       <workItem from="1572889316310" duration="5196000" />
       <workItem from="1572976250900" duration="909000" />
+      <workItem from="1572988512199" duration="651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6105000" />
+    <option name="totallyTimeSpent" value="6756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1737" height="1042" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25253126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25550923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -244,7 +225,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ageev/JavaReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="829">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
