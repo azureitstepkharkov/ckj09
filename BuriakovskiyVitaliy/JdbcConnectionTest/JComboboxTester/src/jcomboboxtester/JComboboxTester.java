@@ -5,6 +5,7 @@
  */
 package jcomboboxtester;
 
+import View.BooksWindowsJTable;
 import View.DepartmentsWindows;
 import View.EmployeeWindow;
 import View.MyForm;
@@ -23,8 +24,10 @@ public class JComboboxTester {
        //MyForm form = new MyForm();
        EmployeeWindow form = new EmployeeWindow();
        DepartmentsWindows form1 = new DepartmentsWindows();
+       BooksWindowsJTable form2 = new BooksWindowsJTable();
        form.setVisible(true);
        form1.setVisible(true);
+       form2.setVisible(true);
     }
     
 }
