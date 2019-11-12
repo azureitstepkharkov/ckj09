@@ -29,6 +29,9 @@ class MyGradeRenderer extends JLabel implements TableCellRenderer {
        {
            super.setBackground(Color.GREEN);
            super.setText("A");
+           super.setForeground(Color.red);
+           
+           
        }else if (grade == Student.Grade.B)
        {
            super.setBackground(Color.white);
