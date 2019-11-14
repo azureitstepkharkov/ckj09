@@ -66,10 +66,10 @@ public class MyForm extends JFrame implements ActionListener
         //
         cbox = new JComboBox<>();
         books = new Vector<>();
-        Book b = new Book("Мойдодыр");
-        Book b1 = new Book("Азбука");        
-        Book b2 = new Book("Букварь");
-        Book b3 = new Book("Атлас дорог Украины");
+        Book b = new Book(1,"Мойдодыр",2,1995);
+        Book b1 = new Book(2,"Азбука",3,2000);        
+        Book b2 = new Book(3,"Букварь",1,2015);
+        Book b3 = new Book(4,"Атлас дорог Украины",2,1990);
         books.add(b);
         books.add(b1);
         books.add(b2);

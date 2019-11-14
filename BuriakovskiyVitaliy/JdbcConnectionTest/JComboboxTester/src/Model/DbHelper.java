@@ -161,5 +161,59 @@ public class DbHelper {
         return v;
     }
     
+    public Vector<Book> getBooks() {
+        Vector<Book> v = new Vector<Book>();
 
+        System.out.println("-------- Oracle JDBC Connection Testing ------");
+        try {
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+        } catch (ClassNotFoundException ex) {
+            System.out.println("класс Oracle JDBC не найден в файле ojdbc6.jar");
+            return v;
+        }
+        System.out.println("Oracle JDBC Driver Registered!");
+        Connection connection = null;
+        try {
+            java.util.Locale locale = java.util.Locale.getDefault();
+            java.util.Locale.setDefault(java.util.Locale.ENGLISH);
+            connection = DriverManager.getConnection(
+                    "jdbc:oracle:thin:@localhost:1521:xe", "system",
+                    "123");
+            java.util.Locale.setDefault(locale);
+        } catch (SQLException ex) {
+            System.out.println("Или серевер не доступен, или пользователь не существует, или пароль не подходит");
+            System.out.printf("подробнее об ошибке 1 %s", ex.toString());
+            return v;
+        }
+        //
+        System.out.println("You made it, take control your database now!");
+        String sqlText = "SELECT "
+                + "HR.BOOKS.ID"
+                + ", HR.BOOKS.TITLE"
+                + ", HR.BOOKS.AUTHORS_ID"
+                + ", HR.BOOKS.P_YEAR"
+                + " FROM HR.BOOKS";
+        Statement st;//механизм выполнения команд SQL
+        try {
+            st = connection.createStatement();//настроился на нужную БД
+            ResultSet rs = st.executeQuery(sqlText);
+            while (rs.next()) {
+                int id = rs.getInt("ID");
+                String title = rs.getString("TITLE");
+                int autorId = rs.getInt("AUTHORS_ID");
+                int year = rs.getInt("P_YEAR");
+                System.out.println(id +"   " + title + "  " + autorId + "  " + year);
+                
+                Book book = new Book(id,title, autorId, year);
+                //
+                System.out.println(book);
+                v.add(book);
+            }
+        } catch (SQLException ex) {
+            System.out.printf("подробнее об ошибке 2 %s", ex.toString());
+            return v;
+        }
+        //
+        return v;
+    }
 }

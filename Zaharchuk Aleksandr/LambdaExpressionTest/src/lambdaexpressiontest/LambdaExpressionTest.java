@@ -1,8 +1,9 @@
 package lambdaexpressiontest;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 import java.util.function.*;
 
 public class LambdaExpressionTest {
@@ -52,6 +53,22 @@ public class LambdaExpressionTest {
             }
         }
     }
+    //
+    public static int calcSum(List<Integer> numbers,
+             Predicate<Integer> funct) 
+     {
+        int sum = 0;
+         for (int number : numbers) 
+         {
+            if (funct.test(number)) 
+            {
+               sum += number;
+            }
+        }
+         return sum;
+    }
+    
+    //
     public static void main(String[] args) 
     {
           //List<int> num = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -71,5 +88,12 @@ public class LambdaExpressionTest {
         printIntegers(numbers, isEven);
         System.out.println("printIntegers(numbers,num -> (num % 2) != 0)");
         printIntegers(numbers, num -> (num % 2) != 0);
+        List<Employee> employees = new ArrayList<>();
+        employees.add( new Employee("ivanov", 1.1) );
+        employees.add( new Employee("petrov", 1.1) );
+        employees.add( new Employee("sidorov", 1.1) );
+        employees.forEach(System.out::println);
+        employees.sort(employees);
     }
+    
 }

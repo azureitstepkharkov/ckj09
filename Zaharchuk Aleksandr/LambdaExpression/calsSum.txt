@@ -1,0 +1,19 @@
+public static int calcSum(List<Integer> numbers,
+             Predicate<Integer> funct) 
+     {
+        int sum = 0;
+         for (int number : numbers) 
+         {
+            if (funct.test(number)) 
+            {
+               sum += number;
+            }
+        }
+         return sum;
+    }
+	//
+	//
+        int sum1 = calcSum(numbers, n -> n % 2 == 0);//сумма только четных
+        int sum2 = calcSum(numbers, n -> n > 3);//сумма всех, кто больше трех
+        int sum = calcSum(numbers, n -> true);//"выключил" предикат - всегда - возвращаем true
+        
