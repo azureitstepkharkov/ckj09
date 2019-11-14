@@ -1,6 +1,5 @@
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.function.Predicate;
 
 public class LamdaExprTesr {
@@ -19,7 +18,13 @@ public class LamdaExprTesr {
     }
 
     public void printItem(List<Integer> a, Predicate p){
-        for ()
+        for (Integer i : a)
+        {
+            if (p.test(i))
+            {
+                System.out.println(i);
+            }
+        }
     }
 
 
@@ -34,5 +39,39 @@ public class LamdaExprTesr {
         numbers.forEach((Integer a)->{System.out.print(a);});
         numbers.forEach( a ->{System.out.print(a);});
         numbers.forEach( a->System.out.print(a));
+
+        //Пример 4 обощение анонимных классов
+        List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
+        System.out.println("before sorting on salary: " + names);
+        //вариант 1 анонимный класс - сортировка
+        Collections.sort(names, new Comparator<String>() {
+            @Override
+            public int compare(String a, String b) {
+                return b.compareTo(a);
+            }
+        });
+        //С лямда будет выглядит так:
+        Collections.sort(names,(String a, String b) -> {return b.compareTo(a);});
+        Collections.sort(names,(a,b) -> b.compareTo(a));
+        //
+
+        List<Employee> employees = new ArrayList<>();
+            employees.add(new Employee("Ivanov",1,1));
+            employees.add(new Employee("Petrov",2,3));
+            employees.add(new Employee("Sidirov",3,2));
+            employees.forEach(System.out::println);
+            employees.sort(employees);
     }
+
+    public static double sumOfSomething(){
+
+
+
+        return 0;
+    }
+
+
+
+
+
 }
