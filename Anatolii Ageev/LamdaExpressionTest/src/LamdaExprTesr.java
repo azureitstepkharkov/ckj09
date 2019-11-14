@@ -1,5 +1,9 @@
 import java.lang.reflect.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 import java.util.function.Predicate;
 
 public class LamdaExprTesr {
@@ -55,7 +59,7 @@ public class LamdaExprTesr {
         Collections.sort(names,(a,b) -> b.compareTo(a));
         //
 
-        List<Employee> employees = new ArrayList<>();
+        List<Employee> employees = new ArrayList<Employee>();
             employees.add(new Employee("Ivanov",1,1));
             employees.add(new Employee("Petrov",2,3));
             employees.add(new Employee("Sidirov",3,2));
