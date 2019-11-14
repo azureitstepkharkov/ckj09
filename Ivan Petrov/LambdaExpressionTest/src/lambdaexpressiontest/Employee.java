@@ -14,7 +14,10 @@ public class Employee implements Comparable<Employee>
     @Override
     public int compareTo(Employee t) 
     {
+        if ( t instanceof Employee)
         return t.name.compareTo(name);
+        else
+            return -1;
     }
     //hashCode() + equals - для устойчивости в коллекциях
     @Override
