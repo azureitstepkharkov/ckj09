@@ -10,6 +10,8 @@ public class MyForm extends JFrame implements ActionListener
     @Override
     public void actionPerformed(ActionEvent ae) 
     {
+       if ( ae.getSource() instanceof JButton) 
+       {
        JButton btn = (JButton) ae.getSource();
         if (btn == btnSelect) 
         {
@@ -22,6 +24,7 @@ public class MyForm extends JFrame implements ActionListener
         if (btn == btnRemove) {
             
         }
+       }
     }
     Vector<String> books;//то что заполняем из базы данных
     JComboBox<String> cbox;//компонент для отображения
@@ -52,7 +55,15 @@ public class MyForm extends JFrame implements ActionListener
         btnRemove = new JButton("Удалить");
         this.add(btnRemove);
         //добавим кнопки выбора и удаления элементов в список
-        btnSelect.addActionListener(this);
+        //btnSelect.addActionListener(this);
+        btnSelect.addActionListener( (ae)->{
+        
+         String selectedBook = (String) cbox.getSelectedItem();
+            System.out.println("select ->" + selectedBook);
+            JOptionPane.showMessageDialog(MyForm.this,
+                    selectedBook);
+        
+        }  );
         btnRemove.addActionListener( 
            new ActionListener() {
             @Override
