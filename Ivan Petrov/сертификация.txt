@@ -1,0 +1,15 @@
+microsoft
+https://www.microsoft.com/ru-ru/learning/exam-70-483.aspx
+
+oracle
+
+https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-809
+https://education.oracle.com/oracle-certified-professional-java-ee-7-application-developer/trackp_900
+
+DEV ops
+https://aws.amazon.com/ru/certification/
+https://aws.amazon.com/ru/certification/certified-developer-associate/
+
+QA auto
+https://isqi.org/ua/en/istqb-certified-tester-test-automation-engineer#/25-language-english/28-exam-public_exam_session/32-time_extension-no/64-2try_exam-na
+https://astqb.org/certifications/test-automation-engineer-certification/
