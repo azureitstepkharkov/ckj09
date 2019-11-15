@@ -68,6 +68,7 @@ public class JdbcOracleConnectionTest {
         try {
             st = connection.createStatement();//настроился на нужную БД
             ResultSet rs = st.executeQuery(sqlText);
+            List<Employee> employees = new ArrayList<>();
             while (rs.next()) {
                 int id = rs.getInt("EMPLOYEE_ID");
                 Date d = rs.getDate("HIRE_DATE");
@@ -80,6 +81,17 @@ public class JdbcOracleConnectionTest {
                 String jobName = rs.getString("JOB_TITLE");
                 //
                 System.out.println("id = " + id + " hire_date = " + d + " name = " + fname + " salary = " + sal);
+                Employee eml =  new Employee (id,fname,lname,sal,jobName,depName);
+                employees.add(eml);
+            }
+            for (Employee eml : employees)
+            {
+                ISalaryCalc calc = new SalaryCalculator(eml);
+                double tottalSalary = calc.calcSalary();
+                System.out.println(eml.getFname()
+                        +" "+eml.getJobName()
+                        +" "+eml.getSal()
+                        + "Total salary = "+ tottalSalary);
             }
         } catch (SQLException ex) {
             System.out.printf("подробнее об ошибке %s", ex.toString());
