@@ -20,7 +20,9 @@ public class HibernateSingleTableXmlMapingTest {
         
         session.beginTransaction();
         Employee employee = new Employee("Тест11");
+        User user = new User("Name1","Name2");
         session.save(employee);
+        session.save(user);
         session.getTransaction().commit();
                 
     }

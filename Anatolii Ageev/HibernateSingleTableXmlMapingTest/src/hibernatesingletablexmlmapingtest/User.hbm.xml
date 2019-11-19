@@ -43,12 +43,12 @@ Contributor(s):
   "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
-
 <hibernate-mapping>
-    <class name="hibernatesingletablexmlmapingtest.Employee" table="employee">
-       <id name="id" column="id" type="long">
+    <class name="hibernatesingletablexmlmapingtest.User" table="user">
+       <id name="userId" column="user_id" type="long">
          <generator class="native"></generator>
        </id>
-       <property name="name" column="name" type="string"></property>
+       <property name="firstName" column="first_name" type="string"></property>
+       <property name="lastName" column="last_name" type="string"></property>
     </class>
 </hibernate-mapping>
