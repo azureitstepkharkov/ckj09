@@ -32,6 +32,19 @@ order by
 3. Должен сохранятся в XML
 -----------------
 
+интерфейс map java
+интерфейс list java
+oracle webservices
+Oracle Databases
+1Z0-144
+1Z0-071
+DevOps crtefication amazon 
+
+Экзамен 70-483
+Java se 8 programmer ii
+education.oracle.com
+Golovach Courses - youtube
+-----------------
 
 
 1212
