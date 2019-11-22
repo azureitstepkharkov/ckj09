@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="hibernatesingletablexmlmapingtest.User" table="User">
+       <id name="USER_ID" column="USER_ID" type="int">
+         <generator class="native"></generator>
+       </id>
+       <property name="FIRST_NAME" column="FIRST_NAME" type="string"></property>
+       <property name="LAST_NAME" column="LAST_NAME" type="string"></property>
+  
+ </class>
+</hibernate-mapping>
