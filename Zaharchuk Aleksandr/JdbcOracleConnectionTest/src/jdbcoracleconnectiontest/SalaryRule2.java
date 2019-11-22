@@ -1,20 +1,15 @@
-
 package jdbcoracleconnectiontest;
 
-
-public class SalaryRule2 implements ISalaryCalc
-{
-    double precent;
+public class SalaryRule2 implements ISalaryCalc {
     double base;
+    double percent;
     @Override
-    public double calcSalary() 
-    {
-        return base + base * precent;
+    public double calcSalary() {
+        return base + base * percent;
     }
-    public  SalaryRule2(double base, double precent)
+    public SalaryRule2(double base, double percent)
     {
         this.base = base;
-        this.precent = precent;
+        this.percent = percent;
     }
-    
 }

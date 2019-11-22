@@ -1,28 +1,33 @@
-
 package lambdaexpressiontest;
 
-import java.io.File;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-
 import java.util.Objects;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-
-public class Employee implements Comparable<Object>
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
+public class Employee implements Comparable<Employee>
 {
-    
-    //hasheCode + equals - для устойчивости в 
+    @Override
+    public int compareTo(Employee t) 
+    {
+        if ( t instanceof Employee)
+        return t.name.compareTo(name);
+        else
+            return -1;
+    }
+    //hashCode() + equals - для устойчивости в коллекциях
     @Override
     public int hashCode() {
-        int hash = 5;
-        hash = 19 * hash + Objects.hashCode(this.name);
-        hash = 19 * hash + this.age;
-        hash = 19 * hash + this.salary;
+        int hash = 3;
+        hash = 67 * hash + Objects.hashCode(this.name);
+        hash = 67 * hash + this.age;
+        hash = 67 * hash + this.salary;
         return hash;
     }
-
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -47,6 +52,8 @@ public class Employee implements Comparable<Object>
         return true;
     }
 
+    //для устойчивости в лямбда выражениях
+    //numbers.forEach(System.out::println);//только java 9+
     @Override
     public String toString() {
         return "Employee{" + "name=" + name + ", age=" + age + ", salary=" + salary + '}';
@@ -56,6 +63,10 @@ public class Employee implements Comparable<Object>
         this.name = name;
         this.age = age;
         this.salary = salary;
+    }
+    protected Employee() 
+    {
+        
     }
     public String getName() {
         return name;
@@ -72,7 +83,6 @@ public class Employee implements Comparable<Object>
     public int getSalary() {
         return salary;
     }
-
     public void setSalary(int salary) {
         this.salary = salary;
     }
@@ -82,4 +92,10 @@ public class Employee implements Comparable<Object>
     private int age;
     @XmlElement
     private int salary;
+    //для работы механизмов рефлексии Hibernate
+    //должны быть сет и гет методы для КАЖДОГО
+    //поля - из таблицы
+    //с правильным форматом имени setAge
+    //как делает мастер Netbeans
+
 }

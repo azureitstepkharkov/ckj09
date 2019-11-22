@@ -52,3 +52,12 @@ Golovach Courses - youtube
 самостоятельно для MyGradeRenderer
 1.Надпись(Уровень образования А,В)
 2,
+-----------------
+22.11.2019
+master de tail
+onetomany
+manytomany
+
+resurses to lerning
+sqlbolt.com
+connectionstrings.com

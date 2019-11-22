@@ -1,6 +1,4 @@
-
 package jdbcoracleconnectiontest;
-
 
 public interface ISalaryCalc 
 {
