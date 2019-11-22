@@ -19,10 +19,10 @@ public class HibernateSingleTableXmlMapingTest {
         Session session = HibernateUtil.getSessionFactory().openSession();
         
         session.beginTransaction();
-        Employee employee = new Employee("Тест11");
-        User user = new User("Name1","Name2");
+        Employee employee = new Employee("Тест222");
+       // User user = new User("Name2","Name2");
         session.save(employee);
-        session.save(user);
+     //   session.save(user);
         session.getTransaction().commit();
                 
     }
