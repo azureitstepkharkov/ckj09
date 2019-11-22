@@ -68,30 +68,29 @@ public class JdbcOracleConnectionTest {
         try {
             st = connection.createStatement();//настроился на нужную БД
             ResultSet rs = st.executeQuery(sqlText);
-            List<Employee> employees = new ArrayList<>();
+            List<Employee> employees = new ArrayList<Employee>();
             while (rs.next()) {
                 int id = rs.getInt("EMPLOYEE_ID");
                 Date d = rs.getDate("HIRE_DATE");
-                //
                 String fname = rs.getString("FIRST_NAME");
                 String lname = rs.getString("LAST_NAME");
                 float sal = rs.getFloat("SALARY");
                 String depName = rs.getString("DEPARTMENT_NAME");;
                 String managerName = rs.getString("MANAGER_FNAME");;
                 String jobName = rs.getString("JOB_TITLE");
-                //
                 System.out.println("id = " + id + " hire_date = " + d + " name = " + fname + " salary = " + sal);
-                Employee eml =  new Employee (id,fname,lname,sal,jobName,depName);
+                Employee eml = new Employee(id,fname,lname,sal,jobName,depName);
                 employees.add(eml);
             }
-            for (Employee eml : employees)
+            
+            for(Employee eml : employees)
             {
                 ISalaryCalc calc = new SalaryCalculator(eml);
                 double tottalSalary = calc.calcSalary();
                 System.out.println(eml.getFname()
                         +" "+eml.getJobName()
                         +" "+eml.getSal()
-                        + "Total salary = "+ tottalSalary);
+                        +" tatal salary = "+tottalSalary);
             }
         } catch (SQLException ex) {
             System.out.printf("подробнее об ошибке %s", ex.toString());

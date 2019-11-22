@@ -1,9 +1,11 @@
 package lambdaexpressiontest;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+
 import java.util.function.*;
 
 public class LambdaExpressionTest {
@@ -53,7 +55,7 @@ public class LambdaExpressionTest {
             }
         }
     }
-    //
+    
     public static int calcSum(List<Integer> numbers,
              Predicate<Integer> funct) 
      {
@@ -67,8 +69,7 @@ public class LambdaExpressionTest {
         }
          return sum;
     }
-    
-    //
+   //
     public static void main(String[] args) 
     {
           //List<int> num = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -88,12 +89,33 @@ public class LambdaExpressionTest {
         printIntegers(numbers, isEven);
         System.out.println("printIntegers(numbers,num -> (num % 2) != 0)");
         printIntegers(numbers, num -> (num % 2) != 0);
+        //
+        int sum1 = calcSum(numbers, n -> n % 2 == 0);//сумма только четных
+        int sum2 = calcSum(numbers, n -> n > 3);//сумма всех, кто больше трех
+        int sum = calcSum(numbers, n -> true);//"выключил" предикат - всегда - возвращаем true
+        //сокращение синтаксиса анонимных классов (обработчиков Click в Java Android)
+        //Пример 4 обощение анонимных классов
+        List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
+        System.out.println("before sorting on salary: " + names);
+        //вариант 1 анонимный класс - сортировка
+        Collections.sort(names, new Comparator<String>() {
+        @Override
+                  public int compare(String a, String b) {
+                  return b.compareTo(a);
+                  }
+        });
+        //вариант 2 замена анонимного класса лямбда выражением
+        Collections.sort(names,(String a, String b) ->{return b.compareTo(a);}  );
+        Collections.sort(names,(String a, String b) ->b.compareTo(a)  );
+        Collections.sort(names,(a,b) ->b.compareTo(a)  );
+        //
         List<Employee> employees = new ArrayList<>();
-        employees.add( new Employee("ivanov", 1.1) );
-        employees.add( new Employee("petrov", 1.1) );
-        employees.add( new Employee("sidorov", 1.1) );
-        employees.forEach(System.out::println);
-        employees.sort(employees);
-    }
-    
+        employees.add( new Employee("ivanov", 1, 1) );
+        employees.add( new Employee("petrov", 2, 1) );
+        employees.add( new Employee("sidorov", 3, 1) );
+        employees.forEach(System.out::println);//toString
+        Collections.sort(employees);//сортировку поумолчанию
+        //сохранение в xml на основании проекта XMLCreater
+        
+    }   //
 }

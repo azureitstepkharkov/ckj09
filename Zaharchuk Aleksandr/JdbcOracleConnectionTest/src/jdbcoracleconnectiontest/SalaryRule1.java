@@ -1,11 +1,9 @@
-
 package jdbcoracleconnectiontest;
 
 
 public class SalaryRule1 implements ISalaryCalc
 {
     double salary;
-
     @Override
     public double calcSalary() 
     {
