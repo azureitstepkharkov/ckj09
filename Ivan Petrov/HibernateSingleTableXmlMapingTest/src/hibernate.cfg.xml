@@ -11,5 +11,6 @@
     <property name="hibernate.dialect">hibernatesingletablexmlmapingtest.SQLiteDialect</property>
     <property name="show_sql">true</property>
     <mapping resource="hibernatesingletablexmlmapingtest/Employee.hbm.xml"/>
+    <mapping class="hibernatesingletablexmlmapingtest.Employee"/>
   </session-factory>
 </hibernate-configuration>

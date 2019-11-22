@@ -1,8 +1,15 @@
 package hibernatesingletablexmlmapingtest;
 
+import javax.persistence.Entity; //@Entity
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id; //@Id
 
+@Entity
 public class Employee {
 
+       @Id
+       @GeneratedValue(strategy = GenerationType.IDENTITY) 
        private long id = 1L;
        private String name;
 
