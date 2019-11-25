@@ -37,14 +37,25 @@ public class OneToManyJPATest {
         session = mFctory.openSession();
         
         session = mFctory.openSession();
-        System.out.println("--- Find all Departments && Employees ---");
-        Query query = session.createQuery("SELECT e FROM Employees e");
-        List<Employees> empls = query.list();
-        for (Employees em : empls) {
-            System.out.println(String.format("Found: %s\n", em));
-            //
-            for (DocsEntity de : em.getDocs()) {
-                System.out.println(String.format("departments employees: %s", de));
+//        System.out.println("--- Find all Departments && Employees ---");
+//        Query query = session.createQuery("SELECT e FROM Employees e");
+//        List<Employees> empls = query.list();
+//        for (Employees em : empls) {
+//            System.out.println(String.format("Found: %s\n", em));
+//            //
+//            for (DocsEntity de : em.getDocs()) {
+//                System.out.println(String.format("departments employees: %s", de));
+//            }
+//        }
+
+
+        System.out.println("--- Find all Departments && Users ---");
+        Query query = session.createQuery("SELECT u FROM USRS u");
+        List<USRS> users = query.list();
+        for(USRS us : users){
+            System.out.println(String.format("Found: %s\n", us));
+            for(DEPS de : us.getDeps()){
+               System.out.println(String.format("departments users: %s", de));
             }
         }
         //
