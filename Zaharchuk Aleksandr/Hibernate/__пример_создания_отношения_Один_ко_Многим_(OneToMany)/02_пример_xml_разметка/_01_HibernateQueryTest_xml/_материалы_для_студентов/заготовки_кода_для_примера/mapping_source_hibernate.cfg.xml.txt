@@ -1,0 +1,2 @@
+    <mapping resource="hibernatequerytestsqlitexml/Category.hbm.xml"/>
+    <mapping resource="hibernatequerytestsqlitexml/Product.hbm.xml"/>

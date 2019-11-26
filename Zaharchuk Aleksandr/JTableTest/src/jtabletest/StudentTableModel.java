@@ -1,4 +1,3 @@
-
 package jtabletest;
 
 import java.util.List;

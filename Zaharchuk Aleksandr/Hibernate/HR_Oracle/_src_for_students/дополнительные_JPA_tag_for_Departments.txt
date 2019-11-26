@@ -1,0 +1,3 @@
+@Column(name = "DEPARTMENT_NAME",nullable = false, length = 30 )
+@Column(name = "LOCATION_ID" )
+@Column(name = "MANAGER_ID" )

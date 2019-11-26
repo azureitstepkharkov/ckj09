@@ -5,11 +5,12 @@
     <!-- Коментарий для разметки  -->
     <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
     <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
-    <property name="hibernate.connection.url">jdbc:sqlite:D:\ckj09\Zaharchuk Aleksandr\test.db</property>
+    <property name="hibernate.connection.url">jdbc:sqlite:D:\MyData\test.db</property>
     <property name="hibernate.connection.password"/>
     <property name="hibernate.connection.username"/>
     <property name="hibernate.dialect">hibernatesingletablexmlmapingtest.SQLiteDialect</property>
     <property name="show_sql">true</property>
     <mapping resource="hibernatesingletablexmlmapingtest/Employee.hbm.xml"/>
+    <mapping class="hibernatesingletablexmlmapingtest.Employee"/>
   </session-factory>
 </hibernate-configuration>

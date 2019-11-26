@@ -1,6 +1,8 @@
 
 package onetomanyjpatest;
 
+
+
 import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Column; 
@@ -12,16 +14,17 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table; 
 import javax.persistence.UniqueConstraint; 
 
-@Entity
-//@Table(name = "Employees") 
+@Entity//!! 
+@Table(name = "Employees") 
 public class Employees implements Serializable{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "EmployeesId", unique = true, nullable = false)
-    private long employeesId;
-    @Column(name = "EmployeesI_Name", unique = true, nullable = false, length = 100)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
+    @Column(name = "EmployeesId", unique = true, nullable = false) 
+    private long employeesId; 
+    @Column(name = "Employees_Name", 
+            unique = false, nullable = false, length = 100) 
     private String employees_Name; 
-    @Column(name = "IdCode", unique = true, nullable = false)
+    @Column(name = "IdCode", unique = false, nullable = true)
     private Integer idCode; 
     public Employees() {
     }
@@ -57,6 +60,7 @@ public class Employees implements Serializable{
                 + '}';
     }
     
+    
     /*
     mapping one-to-many (master-detail). главная (master) - Employees, подчиненная (detail) - DocsEntity
     в главной создается коллекция с элементами подчиненной таблицы, и указывается имя свойства в классе для подчиненной
@@ -64,7 +68,6 @@ public class Employees implements Serializable{
     */
     @OneToMany(mappedBy = "employees")//employees - это свойство  в классе DocsEntity.
                                       //Свойство DocsEntity описано там при помощи тэгов @ManyToOne и @JoinColumn
-    
     private List<DocsEntity> docs;
     public List<DocsEntity> getDocs() {
         return docs;
@@ -72,6 +75,6 @@ public class Employees implements Serializable{
     public void setDocs(List<DocsEntity> docs) {
         this.docs = docs;
     }
-*/
+
 }
 

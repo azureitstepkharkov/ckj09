@@ -1,0 +1,16 @@
+        //описание отображаемых заголовков столбцов
+        String[] columns = new String[]
+        {
+            "Id","Name","H.Rate","Part Time (t/f)"
+        };
+        //описание типов столбцов
+        Class[] columnsType = new Class[]
+        {
+            Integer.class,String.class,Double.class, Boolean.class
+        };
+        //матрица значений
+        Object[][] data = new Object[][]{
+            {1, "Иванов", 40.0, false}
+          , {2, "Петров", 70, true}
+          , {3, "Сидоров", 60, false}
+        };

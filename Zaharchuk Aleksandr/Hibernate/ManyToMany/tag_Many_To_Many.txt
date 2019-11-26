@@ -1,0 +1,17 @@
+@ManyToMany
+    @JoinTable(name = "EmployeesToDepartments",//им€ таблицы в базе данных, котора€ описывает отношение "многие-ко-многим"
+            joinColumns = @JoinColumn(name = "EmployeesId"),//им€ стоблца в базе данных
+            inverseJoinColumns = @JoinColumn(name = "DepartmentsId"))//им€ стоблца в базе данных
+			
+			
+/*
+     ƒвунаправленный маппинг
+
+≈сли сущности типов Department и Employees будут иметь ссылки на коллекции друг друга, то отношени€ будут двунаправленными.
+ƒл€ этого:
+    создадим поле departments типа List<Department> в этом классе Employees
+    добавим к этому полю departments аннотацию @ManyToMany
+    добавим элемент аннотации mappedBy, который будет указывать на им€ пол€ класса Department,
+    которое в том класск имеет аннотации @ManyToMany и @JoinTable, т.е. departments
+    */
+    @ManyToMany(mappedBy = "employees")//employees - это поле в классе Department			

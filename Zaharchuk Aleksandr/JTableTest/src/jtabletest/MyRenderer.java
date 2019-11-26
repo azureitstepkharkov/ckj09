@@ -8,11 +8,13 @@ import javax.swing.JTable;
 import javax.swing.table.TableCellRenderer;
 
 
-class MyRenderer extends JCheckBox implements TableCellRenderer {
+class MyRenderer 
+        extends JCheckBox 
+        implements TableCellRenderer {
 
     public MyRenderer()
     {
-        setOpaque(true);
+        //setOpaque(true);
     }
 
     @Override
@@ -45,3 +47,4 @@ class MyRenderer extends JCheckBox implements TableCellRenderer {
   
     
 }
+

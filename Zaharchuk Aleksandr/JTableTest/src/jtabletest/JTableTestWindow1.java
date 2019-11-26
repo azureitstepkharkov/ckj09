@@ -1,10 +1,6 @@
 
 package jtabletest;
 
-import javax.swing.table.DefaultTableModel;
-import java.awt.BorderLayout;
-import javax.swing.JTable;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.BorderLayout;

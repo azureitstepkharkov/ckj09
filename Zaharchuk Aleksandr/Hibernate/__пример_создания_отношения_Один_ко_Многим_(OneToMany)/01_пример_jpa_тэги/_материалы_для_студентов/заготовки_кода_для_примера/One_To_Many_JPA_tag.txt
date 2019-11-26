@@ -1,0 +1,67 @@
+//jpa тэги для класса мэппинга таблицы Department
+ /*
+     Однонаправленный маппинг
+
+Если сущности типа Department будут иметь ссылки на коллекции сущностей типа Employees,
+но сущности типа Employees не будут ссылаться на коллекции сущностей типа Department, то отношения будут однонаправленными.
+
+Для маппинга типа "многие-ко-многим":
+
+    добавим полю employees аннотацию @ManyToMany
+    добавим полю employees аннотацию @JoinTable
+    добавим элемент аннотации name c указанием имени таблицы, которая содержит данные об отношениях, т.е. EmployeesToDepartments
+    добавим элементы аннотации joinColumns и inverseJoinColumns с указанием имен колонок, которые являются внешними ключами, т.е. EmployeesId и DepartmentsId
+    */
+    //выберем всех сотрудников из Подразделения
+    @ManyToMany
+    @JoinTable(name = "EmployeesToDepartments",
+    //имя таблицы в базе данных, 
+    //которая описывает отношение "многие-ко-многим"
+    joinColumns = @JoinColumn(name = "EmployeesId"),
+    //имя стоблца в базе данных
+    inverseJoinColumns = @JoinColumn(name = "DepartmentsId"))
+    //имя стоблца в базе данных
+    private List<Employees> employees;
+    public List<Employees> getEmployees() {
+        return employees;
+    }
+    public void setEmployees(List<Employees> artists) {
+        this.employees = artists;
+    }
+    /**/
+
+//jpa тэги для класса мэппинга для таблицы Employees
+//import java.util.List;
+    /*
+     Двунаправленный маппинг (Collections на Collections)
+     Если сущности типов Department и Employees 
+     будут иметь ссылки на коллекции друг друга, то отношения будут двунаправленными.
+     Для этого:
+    1)создадим поле departments типа List<Department> в этом классе Employees
+    2) добавим к этому полю departments аннотацию @ManyToMany
+    добавим элемент аннотации mappedBy, который будет указывать на имя поля 
+    класса Department,которое в том класск имеет аннотации @ManyToMany 
+    и @JoinTable, т.е. departments
+    */
+    //import javax.persistence.ManyToMany;
+    @ManyToMany(mappedBy = "employees")//employees - это поле в классе Department
+    private List<Department> departments;
+    public List<Department> getDepartments() {
+        return departments;
+    }
+//тэги для отношения с Docs
+/*
+    mapping one-to-many (master-detail). главная (master) - Employees, подчиненная (detail) - DocsEntity
+    в главной создается коллекция с элементами подчиненной таблицы, и указывается имя свойства в классе для подчиненной
+    таблицы
+    */
+    @OneToMany(mappedBy = "employees")//employees - это свойство  в классе DocsEntity.
+                                      //Свойство DocsEntity описано там при помощи тэгов @ManyToOne и @JoinColumn
+    private List<DocsEntity> docs;
+    public List<DocsEntity> getDocs() {
+        return docs;
+    }
+    public void setDocs(List<DocsEntity> docs) {
+        this.docs = docs;
+    }
+    //
