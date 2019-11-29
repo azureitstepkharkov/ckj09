@@ -1,0 +1,18 @@
+ void testDateRangeQuery() throws ParseException 
+    {
+        System.out.println("testDateRangeQuery()");
+        String hql = "from Order where purchaseDate >= :beginDate and purchaseDate <= :endDate";
+        Query query = session.createQuery(hql);
+        SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
+        Date beginDate = dateFormatter.parse("2014-11-01");
+        query.setParameter("beginDate", beginDate);
+        Date endDate = dateFormatter.parse("2017-11-22");
+        query.setParameter("endDate", endDate);
+        List<Order> listOrders = query.list();
+        for (Order anOrder : listOrders) {
+            System.out.println(anOrder.getProduct().getName() + " - "
+                    + anOrder.getAmount() + " - "
+                    + anOrder.getPurchaseDate());
+        }
+    }
+	
