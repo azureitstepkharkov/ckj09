@@ -1,0 +1,29 @@
+@Entity
+@Table(name = "???") //имя проверить в базе данных
+@SequenceGenerator(name = "Employees_Id_Seq_Gen", 
+                   sequenceName = "???", //имя проверить в базе данных
+                   allocationSize = 50,
+                   initialValue = 200)
+
+
+    @Id
+    @Column(name ="EMPLOYEE_ID", nullable = false)
+
+
+    //отношение 
+    @ManyToOne
+    @JoinColumn(name ="DEPARTMENT_ID")//DEPARTMENT_ID - столбец в базе данных
+
+
+//важно: нужно проверить, что поля с датой описаны корректно - используют ковертер
+    //@Temporal(TemporalType.DATE)
+    @Column(name ="HIRE_DATE", nullable = false)
+
+    //@XmlJavaTypeAdapter(yyyyMMddDateAdapter.class)
+    public Date getHireDate() {
+        return hireDate;
+    }
+    //@XmlJavaTypeAdapter(yyyyMMddDateAdapter.class)
+    public void setHireDate(Date hireDate) {
+        this.hireDate = hireDate;
+    }

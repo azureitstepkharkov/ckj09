@@ -1,0 +1,7 @@
+-Doracle.jdbc.territoryMap="ru=RUSSIA;RU=RUSSIA"
+-Doracle.jdbc.languageMap="ru=RUSSIA;RU=RUSSIA"
+
+
+
+
+

@@ -1,0 +1,13 @@
+Alt+Mouse wheel in Netbeans
+
+Alt+Scroll Wheel (on mouse) will do it. If you want to change the font size, go to Tools>Options>Fonts&Colors [note: this is a large icon/tab]. From there, in the Syntax tab (default) click Default, then the '...' button next to Font. Change the font size here, and click Okay. Other fonts inherit this size, so that should be the only change.
+
+https://stackoverflow.com/questions/18553853/does-anyone-know-how-to-zoom-in-on-netbeans-code?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+
+
+in Java Android Studio
+
+In Preferences > Editor, there's an option "Change font size (Zoom) with Command+Mouse Wheel". (I'm on MacOS; on other platforms it might be control+mouse wheel).
+
+https://stackoverflow.com/questions/22563979/zooming-editor-window-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa

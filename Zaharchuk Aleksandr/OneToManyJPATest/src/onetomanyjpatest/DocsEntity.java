@@ -19,7 +19,6 @@ public class DocsEntity implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
     @Column(name = "Id", unique = true, nullable = false) 
     private long id; 
-  
     @Column(name = "Docs_Info", unique = false, nullable = false, length = 100) 
     private String docs_Info; 
     //
@@ -73,3 +72,4 @@ public class DocsEntity implements Serializable{
     }
     //
 }
+

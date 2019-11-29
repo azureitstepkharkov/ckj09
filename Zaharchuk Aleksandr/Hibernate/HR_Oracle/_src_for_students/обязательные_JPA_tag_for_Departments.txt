@@ -1,0 +1,18 @@
+//обязательные тэги
+//для класса
+@Entity
+@Table(name = "???") //имя проверить в базе данных
+@SequenceGenerator(name = "Departments_Id_Seq_Gen", 
+                   sequenceName = "DEPARTMENTS_ID_SEQ_GEN", //имя проверить в базе данных
+                   allocationSize = 50,
+                   initialValue = 200)
+
+
+//для поля класса, которое отвечает за работы с первичным ключом
+    @Id
+    @Column(name ="DEPARTMENT_ID", nullable = false)
+
+
+//отношение One-To-Many
+    @OneToMany(mappedBy = "departments")//departments - имя свойства в классе
+                                        //для описания подчиненной таблицы

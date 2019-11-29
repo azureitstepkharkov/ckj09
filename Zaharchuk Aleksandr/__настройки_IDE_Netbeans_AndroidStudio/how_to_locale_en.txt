@@ -1,0 +1,12 @@
+
+
+I installed NetBeans 8.2 and can't change hte UI language. I didn't find any option for it. Any suggestions? I use this process but it is not working
+
+Find netbeans etc, likely at the C:\Program Files\NetBeans 8.2\etc
+Open netbeans.conf
+Find netbeans_default_options
+Add those options, so: netbeans_default_options="blablabla - J-Duser.language=en -J-Duser.region=US"
+Save file
+Restart/start netbeans. 
+
+https://stackoverflow.com/questions/43282347/i-installed-netbeans-8-2-and-cant-change-ui-language-i-didnt-find-any-option
